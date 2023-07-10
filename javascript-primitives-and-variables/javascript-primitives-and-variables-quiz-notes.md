@@ -57,6 +57,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   of written information. You can do things like change the text, join
   different strings together (concatenation), or show the text on the screen.
 
+  shorter answer:
+  to store and manipulate data
+
 ---
 
 ---
@@ -107,6 +110,24 @@ After completing this exercise, you should be able to discuss or answer the foll
   or has not been given a value.
 
 ---
+
+- Why is it a good habit to include "labels" when you log values to the browser console?
+  adding "labels" is good habbit because it helps with debugging and clear readablity to the console.
+
+---
+
+---
+
+- Give five examples of JavaScript primitives.
+  There are 7 primitive data types:
+
+  - string
+  - number
+  - bigint
+  - boolean
+  - undefined
+  - symbol
+  - null
 
 - AIDEN'S NOTES:
 
