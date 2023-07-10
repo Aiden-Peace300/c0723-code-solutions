@@ -8,7 +8,7 @@ console.log('typeof area:', typeof area); // the log method of the console objec
 const bill = 4.5; // the integer '10' is being assigned to 'height'
 const payment = 10; // the float '4.5' is being assigned to 'payment'
 
-const change = bill - payment; // the expression 'bill - payment' value is being assigned to 'area'
+const change = payment - bill; // the expression 'bill - payment' value is being assigned to 'area'
 
 console.log('value of change:', change); // the log method of the console object is being called with 2 arguments a string and 'change'
 console.log('typeof change:', typeof change); // the log method of the console object is being called with 2 arguments a string and typeof 'change'
@@ -50,7 +50,8 @@ const isSparta =
 console.log('value of isSparta:', isSparta); // the log method of the console object is being called with 2 arguments a string and 'isSparta'
 console.log('typeof isSparta:', typeof isSparta); // the log method of the console object is being called with 2 arguments a string and typeof 'isSparta'
 
-const motto = fullName + ' is the GOAT '; // a concatnated string is assigned to 'motto'
+let motto = fullName; // a concatnated string is assigned to 'motto'
+motto += ' is the GOAT!';
 
 console.log('value of motto:', motto); // the log method of the console object is being called with 2 arguments a string and 'motto'
 console.log('typeof motto:', typeof motto); // the log method of the console object is being called with 2 arguments a string and typeof 'motto'
