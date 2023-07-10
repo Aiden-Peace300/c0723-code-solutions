@@ -5,7 +5,11 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
-  ANSWER: integer and floating-point.
+  ANSWER:In JavaScript, an arithmetic operation typically returns a numeric data type.
+  but you may see the following:
+  - Float
+  - Nan (Not-a-Number)
+  - Infinity and -Infinity
 
 ---
 

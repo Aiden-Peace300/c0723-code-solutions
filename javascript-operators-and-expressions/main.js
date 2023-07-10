@@ -1,6 +1,6 @@
 const width = 4; // the integer '4' is being assigned to 'width'
 const height = 7; // the integer '7' is being assigned to 'height'
-const area = width * height; // the expression 'width * height' value is being assigned to 'area'
+const area = width * height; // 'width * height' the result of that expression is being assigned to 'area'
 
 console.log('value of area:', area); // the log method of the console object is being called with 2 arguments a string and 'area'
 console.log('typeof area:', typeof area); // the log method of the console object is being called with 2 arguments a string and typeof 'area'
@@ -8,7 +8,7 @@ console.log('typeof area:', typeof area); // the log method of the console objec
 const bill = 4.5; // the integer '10' is being assigned to 'height'
 const payment = 10; // the float '4.5' is being assigned to 'payment'
 
-const change = payment - bill; // the expression 'bill - payment' value is being assigned to 'area'
+const change = payment - bill; // 'bill - payment' the result of that expression is being assigned to 'area'
 
 console.log('value of change:', change); // the log method of the console object is being called with 2 arguments a string and 'change'
 console.log('typeof change:', typeof change); // the log method of the console object is being called with 2 arguments a string and typeof 'change'
