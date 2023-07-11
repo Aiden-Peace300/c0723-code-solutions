@@ -26,6 +26,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
+1. technically arrays are objects with array functionality added
+
 All student notes should be written here.
 
 How to write `Code Examples` in markdown
