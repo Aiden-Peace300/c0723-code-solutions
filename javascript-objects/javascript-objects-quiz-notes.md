@@ -50,6 +50,12 @@ After completing this exercise, you should be able to discuss or answer the foll
    const prop = 'colors'
    vehical[prop] = "white"
 
+2. Can't concatenate object property with string!
+
+3. Objects and arrays are reference data types (will get the most up-to-date information to the browser)
+
+4. objects are on the stack but its just a object pointer to the heap where the object data is really at (this is what reference data types do)
+
 All student notes should be written here.
 
 How to write `Code Examples` in markdown
