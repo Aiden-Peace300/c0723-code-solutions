@@ -21,6 +21,6 @@ const bookshelf = [
 const secondBookAuthor = bookshelf[1].author; // assinging the value of the 'author' property that is in the 'bookshelf' array at index one to 'secondBookAuthor'
 const firstBookIsbn = bookshelf[0].isbn; // assinging the value of the 'isbn' property that is in the 'bookshelf' array at index one to 'firstBookIsbn'
 const thirdBookTitle = bookshelf[2].title; // assinging the value of the 'title' property that is in the 'bookshelf' array at index one to 'thirdBookTitle'
-console.log('value of bookshelf[1].author: ' + secondBookAuthor); // the log method of the console object is being called with one arguments a concatnated string
-console.log('value of bookshelf[0].isbn: ' + firstBookIsbn); // the log method of the console object is being called with one arguments a concatnated string
-console.log('value of bookshelf[2].title: ' + thirdBookTitle); // the log method of the console object is being called with one arguments a concatnated string
+console.log('value of bookshelf[1].author:', secondBookAuthor); // the log method of the console object is being called with one arguments a concatnated string
+console.log('value of bookshelf[0].isbn:', firstBookIsbn); // the log method of the console object is being called with one arguments a concatnated string
+console.log('value of bookshelf[2].title:', thirdBookTitle); // the log method of the console object is being called with one arguments a concatnated string
