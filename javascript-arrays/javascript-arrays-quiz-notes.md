@@ -13,6 +13,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How are arrays different from "plain" objects?
   ANSWER: if you have to store the data in order or in a sequence then use array otherwise you can use object to represent a ‘Thing’.
 
+  arrays are accessed are indexed numerically
+
 - What number represents the first index of an array?
   ANSWER: ZERO
 
