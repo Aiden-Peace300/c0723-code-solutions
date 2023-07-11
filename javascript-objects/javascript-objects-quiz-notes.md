@@ -45,7 +45,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
-1. we can use bracket notation to loopup values dot notation does not do that
+1. we can use bracket notation to subsutite property names unlike dot notation
    Example:
    const prop = 'colors'
    vehical[prop] = "white"
