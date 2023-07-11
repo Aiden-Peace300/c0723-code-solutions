@@ -12,7 +12,7 @@ function getArea(width, height) {
 }
 
 function getFirstName(person) {
-  return Object.values(person)[0];
+  return person.fullName;
 }
 
 function getLastElement(array) {
