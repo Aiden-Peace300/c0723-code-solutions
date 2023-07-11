@@ -6,7 +6,8 @@ const student = {
 
 student.livesInIrvine = true; // 'true' is being assigned to the property 'livesInIrvine' in the 'student' object
 student.previousOccupation = 'student'; // 'student' is being assigned to the property 'previousOccupation' in the 'student' object
-console.log('value of fullName:', student.firstName + ' ' + student.lastName); // the log method of the console object is being called with one argument a concatented string
+const fullName = student.firstName + ' ' + student.lastName;
+console.log('value of fullName:', fullName); // the log method of the console object is being called with one argument a concatented string
 console.log('value of student.livesInIrvine:', student.livesInIrvine); // the log method of the console object is being called with two arguments a string and 'student.livesInIrvine'
 console.log('value of student.previousOccupation:', student.previousOccupation); // the log method of the console object is being called with two arguments a string and 'student.previousOccupation'
 console.log('value of student:', student); // the log method of the console object is being called with two arguments a string and 'student' object
