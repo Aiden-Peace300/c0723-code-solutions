@@ -61,6 +61,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   and returns control to the calling function.
 
 ## Notes
+  1) scope: meaning variables is only definded within the code block no where else
+  2) global: meaning varibles can be accessed thought out the whole file
 
 All student notes should be written here.
 
