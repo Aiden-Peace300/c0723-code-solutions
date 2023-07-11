@@ -12,10 +12,11 @@ console.log('value of colors:', colors); // the log method of the console object
 
 // A new array literal is being assigned to 'students' variable
 const students = ['John', 'Jack', 'Jacob', 'Jordan'];
-console.log('There are', students.length, 'students in the class.'); // the log method of the console object is being called with three arguments a string, length property of students array, and a string
+const numberOfStudents = students.length;
+console.log('There are', numberOfStudents, 'students in the class.'); // the log method of the console object is being called with three arguments a string, numberOfStudents, and a string
 console.log(
   'The last student in the array is',
-  students[students.length - 1],
+  students[numberOfStudents - 1],
   '.'
-); // the log method of the console object is being called with three arguments a string, accessing the index of 'students' array at [student.length - 1], and a string
+); // the log method of the console object is being called with three arguments a string, accessing the index of 'students' array at [numberOfStudents], and a string
 console.log(students); // the log method of the console object is being called with two arguments a string and 'students' array
