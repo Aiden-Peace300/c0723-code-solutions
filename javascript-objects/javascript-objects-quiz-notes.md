@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are objects used for?
-  objects are used to store and organize data.
+  objects are used to store and organize a collection data.
 
 ---
 

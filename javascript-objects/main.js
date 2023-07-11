@@ -1,5 +1,6 @@
+// on line 1 a new object literal is being assigned to student variable
 const student = {
-  firstName: 'Aiden',
+  firstName: 'Aiden', // a sting is being assigned to firstName property
   lastName: 'Peace',
   age: 23,
 };
