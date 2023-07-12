@@ -12,6 +12,7 @@
 // defining a function called 'isUnderFive' with one parameter called number with a opening curly bracket
 function isUnderFive(number) {
   if (number < 5) {
+    // there is a if statment with the conditional expression that checks if number is less than 5
     return true; // returning the boolean data type 'true'
   } else {
     // closing curly brace for if code block
@@ -33,6 +34,7 @@ console.log('isUnderFive(5):', isUnderFive(5));
 
 function isEven(number) {
   if (number % 2 === 0) {
+    // there is a if statment with the conditional expression that checks if number is even to 0
     return true; // returning the boolean data type 'true'
   } else {
     // closing curly brace for if code block
@@ -172,14 +174,15 @@ console.log('categorizeAcidity(9):', categorizeAcidity(9));
 // "base"
 
 function introduceWarnerBro(name) {
+  // switch statement with the conditonal expression checking 'name'
   switch (name) {
-    case 'yakko':
-    case 'wakko':
-      return "We're the warner brothers!";
-    case 'dot':
-      return "I'm cute~";
-    default:
-      return 'Goodnight everybody!';
+    case 'yakko': // the case clause checking for string 'yakko'
+    case 'wakko': // the case clause checking for string 'wakko'
+      return "We're the warner brothers!"; // returning string
+    case 'dot': // the case clause checking for string 'dot'
+      return "I'm cute~"; // returning string
+    default: // the default clause
+      return 'Goodnight everybody!'; // returning string
   }
 }
 
