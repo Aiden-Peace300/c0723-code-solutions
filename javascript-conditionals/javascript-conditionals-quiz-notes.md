@@ -7,8 +7,6 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Give 6 examples of comparison operators.
   Comparison operators list:
 
-  - true (Boolean)
-  - false. (Boolean)
   - >       (greater than)
   - < (less than)
   - > = (greater than or equal to)
@@ -20,14 +18,17 @@ After completing this exercise, you should be able to discuss or answer the foll
   A boolean value aka true or false
 
 - What is the purpose of an `if` statement?
-  he IF statement is a decision-making statement that guides a
+  The IF statement is a decision-making statement that guides a
   program to make decisions based on specified criteria.
 
 - Is `else` required in order to use an `if` statement?
   No, the else clause is optional
 
 - Describe the syntax (structure) of an `if` statement.
-  type if then implement open parenthese then add express aka The condition statement then close the parenthese the condition statment will evaluate to either true or false. type a opening curly bracket if
+  type if then implement open parenthese then add express
+  aka The condition statement then close the parenthese
+  the condition statment will evaluate to either true
+  or false. type a opening curly bracket if
 
 - What are the three logical operators?
 
@@ -36,7 +37,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   3. ! (NOT)
 
 - How do you compare two different expressions in the same condition?
-  By utilizing the the logical operator(s)
+  AND operator
 
 - What is the purpose of a `switch` statement?
   The switch statement purpose is to test the equality of a variable
