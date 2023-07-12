@@ -66,9 +66,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - How do you delete an element from an array?
-  use the .slice() method
+  use the .splice() method AND .slice() method
   EXAMPLE:
-  arr.slice();
+  arr.slice(start, deleteAmt);
+  arr.splice(start, deleteAmt, AddingItem)
 
 ---
 
@@ -188,7 +189,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
-All student notes should be written here.
+1.  All student notes should be written here.
 
 How to write `Code Examples` in markdown
 
