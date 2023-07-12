@@ -5,7 +5,8 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do we log things to the console?
-  Debugging
+  1. Debugging
+  2. user friendly way to inspect varibles(s)
 
 ---
 
@@ -23,6 +24,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   A method, like a function, is a set of instructions that perform a task.
   The difference is that a method is associated with an object, while a
   function is not.
+
+  Methods are associated with objects unlike functions
 
 ---
 
@@ -98,25 +101,14 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using a string method simply performs the action (upper, lower, etc.) and then
   moves on to the next line without changing the actual string stored in memory.
 
-  if we aren't sure then using the log method of the console object with the argument of the variable that is assigned to the orginal string.
+  if we aren't sure then using the log method of the console object with the argument
+  of the variable that is assigned to the orginal string.
 
 ---
 
 ---
 
 - Roughly how many string methods are there according to the MDN Web docs?
-
----
-
----
-
-- Is the return value of a function or method useful in every situation?
-
----
-
----
-
-- Roughly how many array methods are there according to the MDN Web docs?
   52?
 
   HERE IS A LIST:
@@ -177,8 +169,22 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ---
 
+- Is the return value of a function or method useful in every situation?
+  No
+
+---
+
+---
+
+- Roughly how many array methods are there according to the MDN Web docs?
+  45?
+
+---
+
+---
+
 - What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
-  MDN?
+  MDN
 
 ## Notes
 

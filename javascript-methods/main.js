@@ -2,6 +2,7 @@ const firstNum = 96; // assigning '96' to the 'firstNum' variable
 const secondNum = 76; // assigning '96' to the 'firstNum' variable
 const thirdNum = 8; // assigning '96' to the 'firstNum' variable
 
+// the max method of the Math object is being called with three arguments and that is being assigned to 'maxResult'
 const maxResult = Math.max(firstNum, secondNum, thirdNum);
 
 // the log method of the console object calls two arguments a string and 'maxResult' variable
@@ -52,13 +53,13 @@ const firstBook = library.shift();
 // the log method of the console object calls two arguments a string and 'firstBook' variable
 console.log('firstBook:', firstBook);
 
-// declaring 'js' object
+// an object literal is being assigned to 'js'
 const js = {
   title: 'JavaScript for Impatient Programmers', // a string is being assigned to the 'title' property
   author: 'Dr. Axel Rauschmayer', // a string is being assigned to the 'author' property
 };
 
-// declaring 'css' object
+// an object literal is being assigned to 'css'
 const css = {
   title: 'CSS Secrets', // a string is being assigned to the 'title' property
   author: 'Lea Verou', // a string is being assigned to the 'author' property
@@ -71,14 +72,14 @@ library.unshift(css);
 // the splice method of the library object calls two argument which is '1' and '1'
 library.splice(1, 1);
 // the log method of the console object calls one argument 'library' variable
-console.log(library);
+console.log('library:', library);
 
 // assigning a string to 'fullName' variable
 const fullName = 'Aiden Peace';
 
-// assigning the result split method of the fullName variable to 'firstAndLastName'
+// assigning the result of the split method of the fullName object to 'firstAndLastName'
 const firstAndLastName = fullName.split(' ');
-// assigning a string to 'firstAndLastName' variable
+// the log method of the console object calls two arguments a string to 'firstAndLastName' variable
 console.log('firstAndLastName:', firstAndLastName);
 
 // assigning the result toUpperCase method of the firstAndLastName variable at 0
