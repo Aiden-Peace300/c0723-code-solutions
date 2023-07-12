@@ -124,12 +124,7 @@ console.log('isOldEnoughToDrive(homer):', isOldEnoughToDrive(homer));
 // true
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person.age >= 16 && person.age >= 21) {
-    return true; // returning the boolean data type 'true'
-  } else {
-    // closing curly brace for if code block
-    return false; // returning the boolean data type 'false'
-  } // closing else curly brace
+  return false; // returning the boolean data type 'true'
 }
 
 // a new object literal is being assigned to 'lisa' variable
@@ -146,14 +141,12 @@ console.log(
 // false
 
 function categorizeAcidity(pH) {
-  if (pH >= 0 && pH <= 14) {
-    if (pH >= 0 && pH < 7) {
-      return 'acid';
-    } else if (pH === 7) {
-      return 'neutral';
-    } else if (pH >= 7 && pH < 14) {
-      return 'base';
-    }
+  if (pH >= 0 && pH < 7) {
+    return 'acid';
+  } else if (pH === 7) {
+    return 'neutral';
+  } else if (pH > 7 && pH < 14) {
+    return 'base';
   } else {
     return 'invalid pH level';
   }
@@ -222,10 +215,13 @@ function recommendMovie(genre) {
       return 'Edward Scissorhands';
     case 'musical':
       return 'Highschool Musical';
+    case 'sci-fi':
+      return 'The Martian';
     default:
       return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi';
   }
 }
+
 // the log method of the console object called with two arguments a string and 'recommendMovie()' function with 'action' object as a single arguement
 console.log("recommendMovie('action'):", recommendMovie('action'));
 // "Die Hard"
