@@ -24,10 +24,8 @@ function getEvenNumbersToTwenty() {
   let currentNumbers = 2;
 
   while (currentNumbers <= 20) {
-    if (currentNumbers % 2 === 0) {
-      evenNumbers.push(currentNumbers);
-    }
-    currentNumbers++;
+    evenNumbers.push(currentNumbers);
+    currentNumbers += 2;
   }
   return evenNumbers;
 }
