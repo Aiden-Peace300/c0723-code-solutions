@@ -1,18 +1,13 @@
 /* exported isVowel */
-function isVowel(char) {
-  switch (char) {
-    case 'A':
+function isVowel(character) {
+  switch (character.toLowerCase()) {
     case 'a':
-    case 'E':
     case 'e':
-    case 'I':
     case 'i':
-    case 'O':
     case 'o':
-    case 'U':
     case 'u':
       return true;
+    default:
+      return false;
   }
-
-  return false;
 }
