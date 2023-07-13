@@ -1,7 +1,8 @@
 /* exported addSuffixToAll */
 function addSuffixToAll(words, suffix) {
+  const result = [];
   for (let i = 0; i < words.length; i++) {
-    words[i] = words[i] + suffix;
+    result.push(words[i] + suffix);
   }
-  return words;
+  return result;
 }
