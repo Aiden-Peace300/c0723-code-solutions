@@ -58,6 +58,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - _When_ does the **final** expression of a `for` loop get evaluated?
+  after the the code in the loop runs
 
 ---
 
@@ -85,6 +86,11 @@ After completing this exercise, you should be able to discuss or answer the foll
   enumerable properties of an object, including its keys.
 
 ## Notes
+
+1. use a while loop when you do not know when it ends
+2. use for loop when you know when to stop
+
+3. 'debugger' keyword will stop on the line its written and in the source tab of the broswer you can step through the logic step by step
 
 All student notes should be written here.
 
