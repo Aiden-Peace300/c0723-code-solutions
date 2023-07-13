@@ -1,12 +1,10 @@
 /* exported filterOutNulls */
 function filterOutNulls(values) {
-  let i = 0;
-  while (i < values.length) {
-    if (values[i] === null) {
-      values.splice(i, 1);
-    } else {
-      i++;
+  const result = [];
+  for (let i = 0; i < values.length; i++) {
+    if (values[i] !== null) {
+      result.push(values[i]);
     }
   }
-  return values;
+  return result;
 }
