@@ -20,6 +20,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - unordered list required you to use <ul> element coupled with <li> elements to display ordered list is a bullet point format.
 
+  ORDERED LIST EXAMPLE:
+
 ```html
 <ul>
   <li>Miles Morales</li>
