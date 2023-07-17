@@ -5,9 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-  - meta tag
-  - Comments
-  - Script and Style Elements
+- inside HEAD tag
 
 ---
 
