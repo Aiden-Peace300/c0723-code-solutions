@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do block-level elements affect the document flow?
-  Block elements cover space from left to right as far as it can go.
-  Block elements have top and bottom margins.
-  A block-level element always starts on a new line.
+  A block-level element is an HTML element that begins a new
+  line on a web page and extends the full width of the available
+  horizontal space of its parent element.
 
   examples:
   https://www.computerhope.com/jargon/b/block-level-element.htm#:~:text=In%20HTML%20programming%2C%20a%20block,before%20and%20after%20the%20element.
@@ -21,8 +21,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - How do inline elements affect the document flow?
-  Inline elements only cover the space as bounded by the tags in the HTML element.
-  Inline elements don't have a top and bottom margin.
+  Inline elements display in a line. They do not force the text after them to a new line.
+  An anchor (or link) is an example of an inline element. You can put several links in a row,
+  and they will display in a line.
 
 ---
 
@@ -40,6 +41,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are the default width and height of an inline element?
   The height of an inline element is the height of the element it is nested in.
   The width of an inline element is the width of the element it is nested in.
+
+  Inline elements only cover the space as bounded by the tags in the HTML element.
+  Inline elements don't have a top and bottom margin.
 
 ## Notes
 
