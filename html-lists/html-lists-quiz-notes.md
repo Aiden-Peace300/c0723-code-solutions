@@ -5,10 +5,12 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the difference between an ordered list and an unordered list in HTML?
-- ordered list required you to use <ol> element coupled with <li> elements to display
+  ordered list required you to use < ol > element coupled with < li > elements to display
   ordered list in sequential order from 1 to 2 to 3 to 4 so on and so forth.
 
-  ORDERED LIST EXAMPLE:
+  unordered list required you to use <ul> element coupled with <li> elements to display ordered list is a bullet point format.
+
+  - ORDERED LIST EXAMPLE:
 
 ```html
 <ol>
@@ -18,9 +20,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 </ol>
 ```
 
-- unordered list required you to use <ul> element coupled with <li> elements to display ordered list is a bullet point format.
-
-  ORDERED LIST EXAMPLE:
+- ORDERED LIST EXAMPLE:
 
 ```html
 <ul>
