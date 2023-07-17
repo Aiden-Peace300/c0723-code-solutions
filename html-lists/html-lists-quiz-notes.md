@@ -33,7 +33,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - Is an HTML list a block element or an inline element?
-  block elements
+  list element is a block element
 
 ## Notes
 
