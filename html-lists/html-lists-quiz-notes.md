@@ -8,9 +8,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   ordered list required you to use < ol > element coupled with < li > elements to display
   ordered list in sequential order from 1 to 2 to 3 to 4 so on and so forth.
 
-  unordered list required you to use <ul> element coupled with <li> elements to display ordered list is a bullet point format.
+  unordered list required you to use < ul > element coupled with < li > elements to display ordered list is a bullet point format.
 
-  - ORDERED LIST EXAMPLE:
+- ORDERED LIST EXAMPLE:
 
 ```html
 <ol>
