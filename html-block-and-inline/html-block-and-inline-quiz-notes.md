@@ -32,13 +32,15 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are the default width and height of a block-level element?
   100% wide and takes on the height of its inner content.
 
-  A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
-
 ---
 
 ---
 
 - What are the default width and height of an inline element?
+
+  equal to its content
+
+  EXPLNATION:
   The height of an inline element is the height of the element it is nested in.
   The width of an inline element is the width of the element it is nested in.
 
