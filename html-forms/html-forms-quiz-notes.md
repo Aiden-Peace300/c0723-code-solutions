@@ -44,6 +44,16 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
+- What is the 'for' attribute propose?
+  The for attribute is an allowed attribute for < label > and < output > . When used on a < label > element it indicates the form element that this label describes.
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for
+
+  EXAMPLE
+
+```html
+<label for="username">Your name</label> <input type="text" id="username" />
+```
+
 All student notes should be written here.
 
 How to write `Code Examples` in markdown
