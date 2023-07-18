@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--Opening tag of the body element-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html-links</title>
+  </head>
+  <!--Closing tag of the body element-->
+  <body>
+    <!--Opening tag of the body element-->
+    <h1>Coding Form!</h1>
+    <form>
+      <div class="email_class">
+        <!--Opening tag of the div element with a 'class' attribuite-->
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" />
+      </div>
+      <!--Closing tag of the div element-->
+      <br />
+      <!--Self closing tag of the br element-->
+
+      <div class="coding_options_class">
+        <!--Opening tag of the div element-->
+        <label for="coding_id">Why is coding cool?<br /></label>
+        <select id="coding_id" name="coding_options">
+          <option value="" selected disabled>Select an option</option>
+          <option value="interesting">Because it&apos; interesting</option>
+          <option value="fun">Because it&apos; fun</option>
+          <option value="powerful">Because it&apos; powerful</option>
+        </select>
+        <!--Closing tag of the select element-->
+      </div>
+      <!--Closing tag of the div element-->
+
+      <div class="fav_language_class">
+        <!--Opening tag of the div element with a 'class' attribuite-->
+        <p>Favorite Language (choose one)</p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label for="css">CSS</label>
+
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript" />
+        <label for="javascript">JavaScript</label>
+      </div>
+      <!--Closing tag of the div element-->
+
+      <div class="signUp_class">
+        <!--Opening tag of the div element with a 'class' attribuite-->
+        <p>Would you like to sign up for more information?</p>
+        <input type="checkbox" name="signUp" id="signUp" />
+        <label for="signUp">Sign me up!</label><br />
+      </div>
+      <div class="comment_class">
+        <!--Opening tag of the div element with a 'class' attribuite-->
+        <label for="comments">Comments<br /></label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br />
+        <!--Self closing tag of the br element-->
+        <input type="submit" value="Submit" />
+        <!-- OR : <button type="submit">Submit</button> -->
+        <!--Self closing tag of the input element with 'type' and 'value' attribuites-->
+      </div>
+      <!--Closing tag of the div element-->
+    </form>
+    <!--Closing tag of the form element-->
+  </body>
+  <!--Closing tag of the body element-->
+</html>
+<!--Closing tag of the html element-->
