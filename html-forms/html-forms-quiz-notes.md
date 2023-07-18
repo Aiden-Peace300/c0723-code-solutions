@@ -40,7 +40,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - Is an HTML `<input>` element a block element or an inline element?
-  Inline element
+  Inline element, but are tech 'inline-block' (meaning we can give them a width or height)
 
 ## Notes
 
@@ -51,12 +51,11 @@ After completing this exercise, you should be able to discuss or answer the foll
   EXAMPLE
 
 ```html
-<label for="username">Your name</label> <input type="text" id="username" />
+<label for="username">Your name</label>
+<input type="text" required id="username" placeholder="Type Here" />
 ```
 
-All student notes should be written here.
-
-How to write `Code Examples` in markdown
+All student notes should be written here. te `Code Examples` in markdown
 
 for JS:
 
