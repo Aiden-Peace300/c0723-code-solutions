@@ -12,11 +12,32 @@ After completing this exercise, you should be able to discuss or answer the foll
   interactive controls for submitting information.
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
+---
+
+---
+
 - Give five examples of form control elements.
+  MDN ANSWER: You've already met some form elements, including < form > ,
+  < fieldset > , < legend > , < textarea > , < label > , < button > ,
+  and <input> .
+
+  This article covers: The common input types button, checkbox, file,
+  hidden, image, password, radio, reset, submit, and text. Some of the
+  attributes that are common to all form controls.
+
+  https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls
+
+---
+
+---
 
 - Give three examples of `type` attribute values for HTML `<input>` elements.
   MDN ANSWER: button, checkbox, file, hidden, image, password, radio, reset, submit, and text.
   https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls
+
+---
+
+---
 
 - Is an HTML `<input>` element a block element or an inline element?
   Inline element
