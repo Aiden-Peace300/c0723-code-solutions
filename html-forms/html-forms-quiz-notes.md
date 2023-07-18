@@ -14,12 +14,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ---
 
----
-
 - Give five examples of form control elements.
-  MDN ANSWER: You've already met some form elements, including < form > ,
-  < fieldset > , < legend > , < textarea > , < label > , < button > ,
-  and <input> .
+  MDN ANSWER: You've already met some form elements, including `form` ,
+  `fieldset` , `legend` , `textarea`   , `label > , `button` > ,
+  and `input`.
 
   This article covers: The common input types button, checkbox, file,
   hidden, image, password, radio, reset, submit, and text. Some of the
@@ -29,13 +27,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ---
 
----
 
 - Give three examples of `type` attribute values for HTML `<input>` elements.
   MDN ANSWER: button, checkbox, file, hidden, image, password, radio, reset, submit, and text.
   https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls
-
----
 
 ---
 
@@ -45,7 +40,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ## Notes
 
 - What is the 'for' attribute propose?
-  The for attribute is an allowed attribute for < label > and < output > . When used on a < label > element it indicates the form element that this label describes.
+  The for attribute is an allowed attribute for `label` and `output`. When used on a < label > element it indicates the form element that this label describes.
   https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for
 
   EXAMPLE
@@ -55,26 +50,3 @@ After completing this exercise, you should be able to discuss or answer the foll
 <input type="text" required id="username" placeholder="Type Here" />
 ```
 
-All student notes should be written here. te `Code Examples` in markdown
-
-for JS:
-
-```javascript
-const data = 'Howdy';
-```
-
-for HTML:
-
-```html
-<div>
-  <p>This is text content</p>
-</div>
-```
-
-for CSS:
-
-```css
-div {
-  width: 100%;
-}
-```
