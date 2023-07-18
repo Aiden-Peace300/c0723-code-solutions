@@ -31,6 +31,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
+https://www.yaldex.com/html_tutorial_2/LiB0044.html
+
 All student notes should be written here.
 
 How to write `Code Examples` in markdown
