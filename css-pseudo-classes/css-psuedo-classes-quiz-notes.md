@@ -68,6 +68,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   :target - Matches the targeted element in the URL fragment identifier (e.g., #example).
 
 - What are CSS pseudo-classes useful for?
+  
   Should use CSS Pseudo-classes to Highlight User's Position
 
 ## Notes
