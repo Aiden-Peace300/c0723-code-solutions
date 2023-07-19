@@ -1,5 +1,6 @@
+/* A new a new css rule set selecting all elements will all elements of body ... Opening curly bracket*/
 body {
-  color: #090302;
+  color: #090302;  /* hex number is being assigned to the 'color' property */
   font-family: sans-serif;
 }
 
