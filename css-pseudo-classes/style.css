@@ -1,29 +1,35 @@
+/* A new css rule set selecting all elements of body ... Opening curly bracket */
 thead {
-  background-color: black;
-  color: white;
-}
+  background-color: black; /* black is being assigned to the 'background-color' property */
+  color: white; /* white is being assigned to the 'color' property */
+} /* Closing curly bracket */
 
+/* A new css rule set selecting all elements of caption ... Opening curly bracket */
 caption {
   text-align: left;
-}
+} /* Closing curly bracket */
 
+/* A new a new css rule set selecting all elements in the 'grayColumns' class ... Opening curly bracket */
 .grayColumns {
-  background-color: lightgray;
-}
+  background-color: lightgray; /* lightgray is being assigned to the 'background-color' property */
+} /* Closing curly bracket */
 
+/* A new a new css rule set selecting all elements in the 'hoverbutton' id ... Opening curly bracket */
 #hoverbutton {
-  font-size: 24px;
-}
+  font-size: 24px; /* 24px is being assigned to the 'font-size' property */
+} /* Closing curly bracket */
 
+/* A new css rule set selecting all elements of caption ... Opening curly bracket */
 button {
-  margin-top: 20px;
-  padding: 6px 26px;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-}
+  margin-top: 20px; /* 20px is being assigned to the 'margin-top' property */
+  padding: 6px 26px; /* 6px (top and bottom) and 26px (right and left) is being assigned to the 'font-size' property */
+  font-family: Arial, sans-serif; /* Arial is being assigned to the 'font-family' property */
+  font-size: 20px; /* 20px is being assigned to the 'font-size' property */
+} /* Closing curly bracket */
 
+/* A new css rule set selecting all button elements with the class hover (pseudo-class) ... Opening curly bracket */
 button:hover {
-  color: white;
-  background-color: black;
-  cursor: pointer;
-}
+  color: white; /* white is being assigned to the 'color' property */
+  background-color: black; /* white is being assigned to the 'background-color' property */
+  cursor: pointer; /* pointer is being assigned to the 'cursor' property */
+} /* Closing curly bracket */

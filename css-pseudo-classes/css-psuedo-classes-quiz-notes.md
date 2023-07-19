@@ -71,28 +71,28 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
-All student notes should be written here.
+- why would I want to have more than one font to font-family ?
 
-How to write `Code Examples` in markdown
+  1. Having more than one font in the font-family property allows you to provide a fallback system, ensuring that your webpage displays legible text even if the user's system doesn't have the first font specified. There are several reasons why you would want to include multiple fonts in the font-family declaration:
 
-for JS:
+  2. Cross-platform and Cross-browser Compatibility:
+     Different operating systems and web browsers support different font families. By specifying multiple fonts, you increase the chances of your text being displayed in a consistent and readable manner across various platforms.
 
-```javascript
-const data = 'Howdy';
-```
+  3. Font Availability:
+     Not all users will have the same fonts installed on their devices. By providing fallback fonts, you ensure that your content remains readable and aesthetically pleasing for a broader audience.
 
-for HTML:
+  4. Performance and Loading Times:
+     If you use web fonts from external sources, the time it takes to load these fonts can impact the performance of your webpage. By providing fallback fonts, you can display the content immediately with locally installed fonts while the web font loads in the background.
 
-```html
-<div>
-  <p>This is text content</p>
-</div>
-```
+  Theming and Design Flexibility:
+  Including multiple fonts in the font-family allows you to establish a hierarchy of fonts for different elements. For example, you might use a more decorative font for headings and a more readable font for the body text, enhancing the overall visual design of your website.
 
-for CSS:
+  Here's an example of using multiple fonts in the font-family property:
 
 ```css
-div {
-  width: 100%;
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 ```
+
+- In this example, the browser will first try to use the "Helvetica Neue" font. If it's not available on the user's system, it will attempt to use Arial. If Arial is also not available, it will fall back to a generic sans-serif font that the system provides. This way, you ensure that the text will always be displayed, even if the desired fonts are not available.
