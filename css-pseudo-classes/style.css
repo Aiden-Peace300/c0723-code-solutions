@@ -1,0 +1,29 @@
+thead {
+  background-color: black;
+  color: white;
+}
+
+caption {
+  text-align: left;
+}
+
+.grayColumns {
+  background-color: lightgray;
+}
+
+#hoverbutton {
+  font-size: 24px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 6px 26px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
