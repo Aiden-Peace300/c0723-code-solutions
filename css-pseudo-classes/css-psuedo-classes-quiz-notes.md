@@ -8,6 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   A pseudo-class is a selector that selects elements that are in a specific state
 
   pseudo-class list:
+  
   :active - Applies styles to an element while it is being activated (e.g., clicked or tapped) by the user.
 
   :any - Matches an element if it is the first or only child of its parent, regardless of the type of the element.
