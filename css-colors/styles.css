@@ -1,51 +1,59 @@
+/* A new css rule set selecting all elements using universal selector ... Opening curly bracket*/
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box;  /* border-box is being assigned to the 'box-sizing' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of body ... Opening curly bracket*/
 body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-}
+  margin: 0;  /* 0 is being assigned to the 'margin' property */
+  font-family: Roboto, sans-serif;  /* sans-serif and Roboto is being assigned to the 'font-family' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of section ... Opening curly bracket*/
 section {
-  padding: 1.5rem 0;
-  background-color: rgb(241, 241, 248);
-}
+  padding: 1.5rem 0;  /* 16px is being assigned to the 'padding' property */
+  background-color: rgb(241, 241, 248);  /* A rgb value is being assigned to the 'padding' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of h2 ... Opening curly bracket*/
 h2 {
-  margin-bottom: 3.5rem;
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 300;
-}
+  margin-bottom: 3.5rem;  /* 3.5rem is being assigned to the 'margin-bottom' property */
+  font-size: 2rem;  /* 2rem is being assigned to the 'font-size' property */
+  text-align: center;  /* center is being assigned to the 'text-align' property */
+  font-weight: 300;  /* 300 is being assigned to the 'font-weight' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of form ... Opening curly bracket*/
 form {
-  margin: 0 auto 2rem;
-  text-align: center;
-}
+  margin: 0 auto 2rem;  /* 0, auto, and 2rem is being assigned to the 'margin' property */
+  text-align: center;  /* center is being assigned to the 'text-align' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of input and button ... Opening curly bracket*/
 input,
 button {
-  height: 3rem;
-  border-radius: 0.25rem;
-  font-size: 1.1rem;
-}
+  height: 3rem;  /* 3rem is being assigned to the 'height' property */
+  border-radius: 0.25rem;  /* 0.25rem is being assigned to the 'border-radius' property */
+  font-size: 1.1rem;  /* 1.1rem is being assigned to the 'font-size' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of input ... Opening curly bracket*/
 input {
-  width: 400px;
-  padding: 0.5rem;
-  border: 1px solid;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
-  border-color: rgba(222, 221, 224, 0.777);
-}
+  width: 400px;  /* 400rem is being assigned to the 'width' property */
+  padding: 0.5rem;  /* 0.5rem is being assigned to the 'padding' property */
+  border: 1px solid;  /* 1px and solid is being assigned to the 'border' property */
+  font-family: Roboto, sans-serif;  /* Roboto and sans-serif is being assigned to the 'font-family' property */
+  font-weight: 300;  /* 300 is being assigned to the 'font-weight' property */
+  border-color: rgba(222, 221, 224, 0.777);  /* A rgb value is being assigned to the 'border-color' property */
+}  /* Closing curly bracket*/
 
+/* A new css rule set selecting all elements of button ... Opening curly bracket*/
 button {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  margin-left: 0.25rem;
-  border: none;
-  font-weight: 500;
-  background-color: rgb(20, 222, 104);
-  color: white;
-}
+  padding-left: 1.25rem;  /* 1.25rem is being assigned to the 'padding-left' property */
+  padding-right: 1.25rem;  /* 1.25rem is being assigned to the 'padding-right' property */
+  margin-left: 0.25rem;  /* 0.25rem is being assigned to the 'margin-left' property */
+  border: none;  /* none is being assigned to the 'border' property */
+  font-weight: 500;  /* 500 is being assigned to the 'font-weight' property */
+  background-color: rgb(20, 222, 104);  /* A rgb value is being assigned to the 'border-color' property */
+  color: white;   /* white is being assigned to the 'color' property */
+}/* Closing curly bracket*/
