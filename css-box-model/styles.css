@@ -1,4 +1,4 @@
-/* A new css rule set selecting all elements of language class of the button element ... Opening curly bracket */
+/* A new css rule set selecting all button elements with the class language ... Opening curly bracket */
 button.language {
   font-size: 24px; /* 24px is being assigned to the 'margin' property */
   background-color: lightgray; /* lightgray is being assigned to the 'background-color' property */

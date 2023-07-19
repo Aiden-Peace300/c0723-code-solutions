@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What CSS properties make up the box model?
+  INSTRUCTORS ANSWER: MARGIN PADDING BORDER
   - Margin => used to create space around elements, outside of any defined borders
     EXAMPLE BELOW: https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_intro
 
@@ -121,7 +122,7 @@ div.c {
 
 ## Notes
 
-```javascript
+```css
 /*
       	                		  			Margin
 			    _____________________________________________________________________
@@ -132,7 +133,7 @@ div.c {
 	Margin	|	Border	|	Padding		|	Content		|	  Padding |   Border	 |	Margin |
     	    |    		  |				    _____________						|			       |         |
    		    |   		  |					    Padding					  		|            |         |
-     		  |    		  |_______________________________________________ |			   |
+     		  |    		  |___________________________________|            |			   |
         	|    		 								  Border		                                 |
         	|___________________________________________________________________ |
              								        Margin
