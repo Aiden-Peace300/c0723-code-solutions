@@ -24,7 +24,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - What axis do the `justify-content` properties work on?
-  ANSWER: horizontally
+  ANSWER: by default horizontally / primary axis
 
   IN DEPTH ANSWER: justify-content property, which aligns items horizontally and accepts the following values:
   flex-start: Items align to the left side of the container.
@@ -36,6 +36,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - What axis do the `align-items` properties work on?
+  ANSWER: by default vertically / cross axis
   The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis.
 
   https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
