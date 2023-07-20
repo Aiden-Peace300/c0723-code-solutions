@@ -1,15 +1,17 @@
-h1 {
-  font-family: 'Questrial', sans-serif;
-  font-size: 45px;
-  margin-bottom: 0rem;
+body {
+  font-family: Cabin, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
 }
 
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
   font-style: italic;
 }
 
 p {
-  font-family: 'Nunito', sans-serif;
-  font-size: 23px;
+  line-height: 1.5;
 }
