@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 45px;
+  margin-bottom: 0rem;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 23px;
+}
