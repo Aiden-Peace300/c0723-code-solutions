@@ -66,3 +66,20 @@ FLEX BOX NOTES
 - Align Content: It works when flex items wrap onto multiple lines. It controls how lines of flex items are aligned within the flex container along the cross axis.
 
 - Flex Grow, Flex Shrink, and Flex Basis: These properties determine how flex items should grow, shrink, and be sized relative to each other on the main axis.
+
+- What is the difference between order and direction css flexbox?
+
+  order:
+  The order property is used to control the visual order of flex items within a flex container. It allows you to change the default order in which the flex items appear on the screen without modifying the HTML structure. The order property takes an integer value, and the items are arranged in ascending order based on this value. By default, all flex items have an order value of 0.
+
+  The flex-direction property is used to control the direction of the main axis in a flex container. The main axis is the primary axis along which the flex items are laid out. It can be either horizontal (row direction) or vertical (column direction).
+
+  The flex-direction property accepts four values:
+
+  row: The main axis is horizontal, and flex items are laid out in a row.
+  row-reverse: Similar to row, but items are displayed in reverse order.
+  column: The main axis is vertical, and flex items are laid out in a column.
+  column-reverse: Similar to column, but items are displayed in reverse order.
+
+  DIFFERENCE:
+  The order property is used to change the visual order of individual flex items within a flex container, while the flex-direction property is used to control the main axis direction of the flex container, which, in turn, affects the layout direction of its child flex items.
