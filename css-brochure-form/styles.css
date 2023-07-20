@@ -1,0 +1,98 @@
+/* Align the content inside .contactInformation to the center */
+.contactInformation {
+  text-align: center; /* Align text content to the center */
+  position: relative; /* Required for absolute positioning inside this container */
+}
+
+/* Style the header text */
+h1 {
+  text-align: center; /* Align text content to the center */
+  text-transform: uppercase; /* Convert text to uppercase */
+  color: rgb(236, 93, 87); /* Set text color to a shade of red */
+  font-size: 14px; /* Set font size to 8 pixels */
+  font-family: 'Brandon Grotesque', sans-serif; /* Set font family to "Brandon Grotesque" or fallback to sans-serif */
+}
+
+/* Style the form */
+form {
+  display: inline-block; /* To allow the form to take the minimum width */
+  position: relative; /* Required for proper positioning of the label and input button */
+}
+
+/* Style the label elements */
+label {
+  font-family: AtlasGrotesk, sans-serif; /* Set font family to "AtlasGrotesk" or fallback to sans-serif */
+  text-align: left; /* Align the text to the left */
+  left: 0; /* Align the label to the left of the input button */
+  top: 0; /* Align the label to the top of the input button */
+  margin-right: 8px; /* Add right margin between the label and the input */
+  margin-bottom: 5px; /* Add bottom margin between the label-input pairs */
+}
+
+/* Style the leftText class */
+.leftText {
+  /* Move the placeholder text to the left */
+  text-align: left; /* Align the text to the left */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-size: 10px; /* Set font size to 10 pixels */
+  font-weight: bold; /* Set font weight to bold */
+
+  /* Optional: Adjust padding/margin to fine-tune the position */
+  padding-left: 4px; /* Add left padding to the label */
+
+  /* Or use margin-left if you prefer */
+}
+
+/* Style the input elements */
+.information {
+  width: 500px; /* Set the width of the input to 400 pixels */
+  height: 40px; /* Set the height of the input to 30 pixels */
+  border-radius: 6px; /* Set border radius to create rounded corners */
+  padding-left: 6px; /* Add left padding to the input */
+
+  /* Or use margin-left if you prefer */
+  border: 1px solid lightgray; /* Set the border to a solid white line */
+}
+
+/* Style the input-container class */
+.input-container {
+  display: flex; /* Use flexbox to arrange the label and input vertically */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: flex-start; /* Align items to the left within the flex container */
+  margin-bottom: 15px; /* Add some spacing between label-input pairs */
+}
+
+/* Style the #gray-label ID */
+#gray-label {
+  background-color: rgb(
+    243,
+    243,
+    243
+  ); /* Set background color to a shade of gray */
+}
+
+/* Style the submit-button class */
+.submit-button {
+  color: white; /* Set text color to white */
+  background-color: rgb(
+    236,
+    93,
+    87
+  ); /* Set background color to a shade of red */
+  font-family: 'Brandon Grotesque', sans-serif; /* Set font family to "Brandon Grotesque" or fallback to sans-serif */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-size: 12px; /* Set font size to 10 pixels */
+  padding: 8px 22px; /* Set padding around the button content */
+  border-radius: 16px; /* Set border radius to create rounded corners */
+  border: none; /* Remove border */
+
+  /* font-weight: bold; /* Set font weight to bold */
+  align-self: flex-end; /* Align the submit button to the right within its container */
+}
+
+/* Style the .submit class */
+.submit {
+  margin-top: none;
+  display: flex; /* Use flexbox to arrange the submit button */
+  justify-content: flex-end; /* Align the content inside .submit to the right */
+}
