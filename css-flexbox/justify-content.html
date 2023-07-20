@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Flexbox - justify-content</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="pokemon.css" />
+    <style>
+      /* your styles here 👇 */
+      /* A new a new css rule set selecting all elements in the 'card-deck' id ... Opening curly bracket*/
+      #card-deck {
+        display: flex;
+        flex: row;
+        justify-content: center;
+      } /* Closing curly bracket*/
+
+      /* A new a new css rule set selecting all elements in the 'card-wrapper' id ... Opening curly bracket*/
+      .card-wrapper {
+        flex-basis: calc(100% / 4);
+        justify-content: center;
+      } /* Closing curly bracket*/
+
+      /* A new a new css rule set selecting all elements in the 'pokemon-card' id ... Opening curly bracket*/
+      .pokemon-card {
+        padding: 10px;
+        margin: 7px;
+      } /* Closing curly bracket*/
+    </style>
+  </head>
+  <body>
+    <div id="card-deck">
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/001.png" alt="Bulbasaur" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/004.png" alt="Charmander" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/007.png" alt="Squirtle" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
