@@ -20,9 +20,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - List the three selector types in order of increasing specificity.
-  1. Type selector (e.g., h1) and pseudo-elements (e.g., ::before).
+  1. ID selectors (e.g., #example).
   2. Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) and pseudo-classes (e.g., :hover).
-  3. ID selectors (e.g., #example).
+  3. universal selector
 
 ---
 
