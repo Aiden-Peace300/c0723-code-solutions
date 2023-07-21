@@ -12,12 +12,12 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - How does setting `position: relative` on an element affect document flow?
-  Elements with position: relative remain in the normal flow of the document. But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element. An offset, based on the values of left, right, top and bottom properties, is applied to the element relative to itself.
+  Elements with position: relative doesn't effect document flow
 
 ---
 
 - How does setting `position: relative` on an element affect where it appears on the page?
-  the element will always be relative to parent container
+  don't effect where it appears using offset will effect where it appeares
 
 ---
 
@@ -32,6 +32,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   an element with position: absolute is positioned relative to its closest positioned ancestor.
 
 - How do you constrain an absolutely positioned element to a containing block?
+  by setting the parent to anything other than static
 
 ---
 
