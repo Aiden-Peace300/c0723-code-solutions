@@ -30,5 +30,3 @@ After completing this exercise, you should be able to discuss or answer the foll
   it breaks the natural cascading of stylesheets, which makes maintaining and debugging your website much more difficult.
 
 ## Notes
-
-All student notes should be written here.
