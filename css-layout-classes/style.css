@@ -46,7 +46,6 @@ p {
 
 /* A new css rule set selecting all elements in the 'column-full' class elements ... Opening curly bracket */
 .column-full {
-  flex-direction: column;
   flex-basis: 100%;
 }
 
