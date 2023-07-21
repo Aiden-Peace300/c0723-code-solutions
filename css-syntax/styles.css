@@ -1,40 +1,40 @@
-/* A new css rule set selecting all elements of body ... Opening curly bracket*/
+/* A new css rule set selecting all elements of body ... Opening curly bracket */
 body {
-  color: #090302;  /* hex number is being assigned to the 'color' property */
-  font-family: sans-serif;  /* sans-serif is being assigned to the 'font-family' property */
-}  /* Closing curly bracket*/
+  color: #090302; /* hex number is being assigned to the 'color' property */
+  font-family: sans-serif; /* sans-serif is being assigned to the 'font-family' property */
+} /* Closing curly bracket */
 
-/* A new css rule set selecting all elements of h1 ... Opening curly bracket*/
+/* A new css rule set selecting all elements of h1 ... Opening curly bracket */
 h1 {
-  text-align: center;  /* center is being assigned to the 'text-align' property */
-}  /* Closing curly bracket*/
+  text-align: center; /* center is being assigned to the 'text-align' property */
+} /* Closing curly bracket */
 
-/* A new css rule set selecting all elements of article ... Opening curly bracket*/
+/* A new css rule set selecting all elements of article ... Opening curly bracket */
 article {
-  padding-left: 16px;  /* 16px is being assigned to the 'padding-left' property */
-  padding-right: 16px;  /* 16px is being assigned to the 'padding-right' property */
-  border: 1px solid;  /* 1px and solid is being assigned to the 'border' property */
-  border-radius: 6px;  /* 6px is being assigned to the 'border-radius' property */
-  margin-bottom: 16px;  /* 16px is being assigned to the 'margin-bottom' property */
-}  /* Closing curly bracket*/
+  padding-left: 16px; /* 16px is being assigned to the 'padding-left' property */
+  padding-right: 16px; /* 16px is being assigned to the 'padding-right' property */
+  border: 1px solid; /* 1px and solid is being assigned to the 'border' property */
+  border-radius: 6px; /* 6px is being assigned to the 'border-radius' property */
+  margin-bottom: 16px; /* 16px is being assigned to the 'margin-bottom' property */
+} /* Closing curly bracket */
 
-/* A new a new css rule set selecting all elements in the 'title' class ... Opening curly bracket*/
+/* A new a new css rule set selecting all elements in the 'title' class ... Opening curly bracket */
 .title {
-  font-family: monospace;  /* monospace is being assigned to the 'font-family' property */
-  font-size: 24px;  /* 24px is being assigned to the 'font-size' property */
-}  /* Closing curly bracket*/
+  font-family: monospace; /* monospace is being assigned to the 'font-family' property */
+  font-size: 24px; /* 24px is being assigned to the 'font-size' property */
+} /* Closing curly bracket */
 
-/* A new a new css rule set selecting all elements in the 'html' id ... Opening curly bracket*/
+/* A new a new css rule set selecting all elements in the 'html' id ... Opening curly bracket */
 #html {
-  color: red;  /* red is being assigned to the 'color' property */
-}  /* Closing curly bracket*/
+  color: red; /* red is being assigned to the 'color' property */
+} /* Closing curly bracket */
 
-/* A new a new css rule set selecting all elements in the 'css' id ... Opening curly bracket*/
+/* A new a new css rule set selecting all elements in the 'css' id ... Opening curly bracket */
 #css {
-  color: green;  /* green is being assigned to the 'color' property */
-}  /* Closing curly bracket*/
+  color: green; /* green is being assigned to the 'color' property */
+} /* Closing curly bracket */
 
-/* A new a new css rule set selecting all elements in the 'js' id ... Opening curly bracket*/
+/* A new a new css rule set selecting all elements in the 'js' id ... Opening curly bracket */
 #js {
-  color: blue;  /* blue is being assigned to the 'color' property */
-}  /* Closing curly bracket*/
+  color: blue; /* blue is being assigned to the 'color' property */
+} /* Closing curly bracket */
