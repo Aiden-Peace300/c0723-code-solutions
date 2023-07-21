@@ -12,9 +12,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are the three primary components of a page layout? (Which helper classes do you need?)
 
-  1. Navigation
-  2. Logo
-  3. footer
+  1. rows
+  2. columns 
+  3. containers
 
 - What is the minimum number of **columns** that you should put in a **row**?
   The minimum number of columns in a row is NOT fixed and can vary based on design and content requirements.
