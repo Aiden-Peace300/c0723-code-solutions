@@ -1,0 +1,17 @@
+body {
+  font-family: Cabin, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
+}
+
+h2 {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+}
