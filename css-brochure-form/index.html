@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Brochure Form</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Learn More</h1>
+    <div class="contactInformation">
+      <main>
+        <form action="/submit" method="post">
+          <div class="input-container">
+            <label class="leftText" for="email">company email</label>
+            <input
+              class="information"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="sally@company.co"
+              required />
+          </div>
+
+          <div class="input-container">
+            <label class="leftText" for="name">Name</label>
+            <input
+              class="information"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Sally Smith"
+              required />
+          </div>
+
+          <div class="input-container">
+            <label class="leftText" for="hiringLocation"
+              >Where are you hiring?</label
+            >
+            <input
+              class="information"
+              type="text"
+              id="hiringLocation"
+              name="hiringLocation"
+              placeholder="City, County"
+              required />
+          </div>
+
+          <div class="input-container">
+            <label class="leftText" for="numberOfEngineers">
+              how many enginners are you hiring in the next 6 months?<br
+            /></label>
+            <select
+              id="gray-label"
+              class="information"
+              name="numberOfEngineers">
+              <option value="2to2" selected>1-2 Engineers</option>
+              <option value="3to6">3-4 Engineers</option>
+              <option value="4to5">4-5 Engineers</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="submit">
+            <input class="submit-button" type="submit" value="Submit" />
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
