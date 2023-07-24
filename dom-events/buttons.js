@@ -6,7 +6,7 @@ function handleClick(event) {
   console.log('event: ', event);
   // the log method of the console object calls two arguments a string and 'target' property of the event object
   console.log('target property of the event object: ', event.target);
-}
+} // closing curly bracket
 
 // defining a function called 'handleMouseover' with one parameter called 'event' ... opening curly bracket
 function handleMouseover(event) {

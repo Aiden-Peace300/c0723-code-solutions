@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do we log things to the console?
-  making it accessable for programmer to debug a JS file/
+  making it accessable for programmer to debug a JS file
 
 ---
 
@@ -33,6 +33,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - What object is passed into an event listener callback when the event fires?
+  event object
   addEventListener(type, listener, useCapture)
   type - https://developer.mozilla.org/en-US/docs/Web/Events
   listener - function
@@ -59,9 +60,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   element.addEventListener('click', handleClick());
   ```
 
-  Snippet 1 correctly sets up the event listener to execute the handleClick function when the 'click' event happens on the element.
+  Snippet 1 (REFERENCE TO FUNCTION) correctly sets up the event listener to execute the handleClick function when the 'click' event happens on the element.
 
-  Snippet 2 incorrectly invokes the handleClick function immediately and assigns its return value (if any) as the event listener, which is likely not the desired behavior for event handling.
+  Snippet 2 (CALLING FUNCTION IMMEDIATELY) incorrectly invokes the handleClick function immediately and assigns its return value (if any) as the event listener, which is likely not the desired behavior for event handling.
 
 ## Notes
 
