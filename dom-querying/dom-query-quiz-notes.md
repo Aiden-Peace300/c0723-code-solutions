@@ -10,6 +10,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - What is a "model"?
+  A representation of all the objects that can be modified
+
+  MORE DEPTH:
   The model is again a reference to encapsulate data or output for rendering.
 
   encapsulation refers to the bundling of data with the mechanisms or methods that operate on the data.
@@ -44,7 +47,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - Why might you want to assign the return value of a DOM query to a variable?
   Assigning the return value of a DOM (Document Object Model) query to a variable is a common practice in web development for several reasons:
-  - Reusability
+  - Reusability!!!!
   - Efficiency
   - Cleaner code
   - Minimizing DOM manipulation: Manipulating the DOM can trigger reflows and repaints, which can be performance-intensive. By storing the reference to a DOM element in a variable, you can perform multiple operations on that element without repeatedly accessing the DOM.
@@ -54,6 +57,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - What `console` method allows you to inspect the properties of a DOM element object?
+
   dir method of the console object then pass in a argument in the parentheses
 
 ---
@@ -66,7 +70,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What does `document.querySelector()` take as its argument and what does it return?
   MDN ANSWER (arguments): A group of selectors to match the descendant elements of the Element baseElement against; this must be valid CSS syntax, or a SyntaxError exception will occur.
 
-  It returns a static NodeList containing all elements that match the specified selector.
+  It returns only the first "thing you call" then returns the first one it finds in the tree
 
 ---
 
@@ -81,3 +85,11 @@ All student notes should be written here.
 
 - difference between console.log and console.dir ?
   The main difference between these two methods is that the console. log() method displays the “toString” representation of any object passed to it. Whereas, the console. dir() method displays an interactive list of the properties of the specified JavaScript object.
+
+- querySelector vs getElementsbyTagName
+
+- $ in front of that variable for DOM is best practive!
+
+- Nodelist are static
+
+- HTMLCollection are live/dynamic
