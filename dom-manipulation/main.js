@@ -1,28 +1,36 @@
-const button = document.querySelector('.hot-button');
-const clickCountDisplay = document.querySelector('.click-count');
-
 // Declare a variable to store the number of button clicks
-let clickCount = 0;
+// assigning 0 to clickCount
+let numberOfClicks = 0;
+
+// assigning the value of querySelector method of the document object called with one argument a string to 'button' constant
+const $hotbutton = document.querySelector('.hot-button');
+// assigning the value of querySelector method of the document object called with one argument a string to 'clickCountDisplay' constant
+const $clickCount = document.querySelector('.click-count');
 
 // Add an event listener to the button to track clicks
-button.addEventListener('click', () => {
-  // Increment the click count when the button is clicked
-  clickCount++;
+// the addEventListener method of the '$button' object calls two arguments a type string and 'handleMouseover' function
+$hotbutton.addEventListener('click', handleHotButtonClick);
+
+function handleHotButtonClick(event) {
+  // Increment $clickCount variable
+  numberOfClicks++;
+  let temp;
+
+  if (numberOfClicks < 4) {
+    temp = 'cold';
+  } else if (numberOfClicks < 7) {
+    temp = 'cool';
+  } else if (numberOfClicks < 10) {
+    temp = 'tepid';
+  } else if (numberOfClicks < 13) {
+    temp = 'warm';
+  } else if (numberOfClicks < 16) {
+    temp = 'hot';
+  } else {
+    temp = 'nuclear';
+  }
 
   // Update the click count display
-  clickCountDisplay.textContent = `Clicks: ${clickCount}`;
-
-  if (clickCount < 4) {
-    button.className = 'hot-button cold';
-  } else if (clickCount < 7) {
-    button.className = 'hot-button cool';
-  } else if (clickCount < 10) {
-    button.className = 'hot-button tepid';
-  } else if (clickCount < 13) {
-    button.className = 'hot-button warm';
-  } else if (clickCount < 16) {
-    button.className = 'hot-button hot';
-  } else {
-    button.className = 'hot-button nuclear';
-  }
-});
+  $hotbutton.className = 'hot-button ' + temp;
+  $clickCount.textContent = 'Clicks: ' + numberOfClicks;
+}

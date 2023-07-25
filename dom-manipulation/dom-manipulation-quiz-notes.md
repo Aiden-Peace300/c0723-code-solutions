@@ -47,4 +47,4 @@ element.className = 'new-class-name';
 
 ## Notes
 
-No notes at this time
+className and textName are getters and setters
