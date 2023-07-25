@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the item horizontally */
+  align-items: center;
+  min-height: 100vh;
+}
+
+.circle {
+  background: rgb(250, 234, 132);
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 0 0 330px rgb(224, 204, 73);
+  cursor: pointer;
+}
+
+.body-class {
+  background-color: rgb(240, 224, 198);
+}
+
+.dark-circle {
+  background: rgb(37, 37, 37);
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 0 0 330px black;
+}
+
+button {
+  border: none;
+}
+
+.dark-body-class {
+  background-color: rgb(6, 6, 6);
+}
