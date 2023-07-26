@@ -50,6 +50,7 @@ button {
 
 .openButton {
   padding: 0.6rem 3rem;
+  margin: 1.5rem;
   font-size: 1.8rem;
   background-color: rgb(74, 74, 233);
   color: white;
