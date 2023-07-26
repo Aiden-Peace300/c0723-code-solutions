@@ -1,8 +1,8 @@
-// assigning the value of querySelector method of the document object called with one argument a string to 'clickCountDisplay' constant
-
+// assigning the value of querySelector method of the document object called with one argument a string to '$circle' constant
 // Get the DOM element with the class name 'circle' and assign it to the '$circle' constant.
 const $circle = document.querySelector('.circle');
 
+// assigning the value of querySelector method of the document object called with one argument a string to '$container' constant
 // Get the DOM element with the class name 'container' and assign it to the '$container' constant.
 const $container = document.querySelector('.container');
 
