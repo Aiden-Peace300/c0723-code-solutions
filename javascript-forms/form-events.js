@@ -15,7 +15,7 @@ function handleBlur(event) {
 }
 
 function handleInput(event) {
-  console.log(`Value of name: ${event.target.value}`);
+  console.log('Value of', event.target.name + ' : ' + event.target.value);
 }
 
 // the querySelector method of the document object calls one argument a string assigns it to the constant variable '$nameInput'
