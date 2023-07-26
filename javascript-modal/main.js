@@ -1,5 +1,5 @@
-const $clickButton = document.querySelector('.openButton');
-const $popupWindow = document.querySelector('.surveryQuestionPopupWindow');
+const $clickButton = document.querySelector('.open-button');
+const $popupWindow = document.querySelector('.survery-popup-window');
 const $popup = document.querySelector('.popup');
 const $okayButton = document.querySelector('.okay-button');
 

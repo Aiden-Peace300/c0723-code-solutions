@@ -48,7 +48,7 @@ button {
 
 /* Style the circle element as a colored button with a shadow and cursor pointer */
 
-.openButton {
+.open-button {
   padding: 0.6rem 3rem;
   margin: 1.5rem;
   font-size: 1.8rem;
@@ -73,13 +73,13 @@ button {
   text-transform: uppercase;
 }
 
-.surveyQuestion {
+.survey-question {
   font-size: 2rem;
   font-family: sans-serif;
   margin-bottom: 3rem;
 }
 
-.surveryQuestionPopupWindow {
+.survery-popup-window {
   display: none; /* Hide the modal by default */
 
   /* To insure the rest of the page is has Semi-transparent background while
