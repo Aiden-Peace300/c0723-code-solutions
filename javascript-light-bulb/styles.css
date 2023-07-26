@@ -1,0 +1,111 @@
+/* -------------------- Body Styling below ----------------------------------- */
+
+/* A new CSS rule set selecting all elements of the body ... Opening curly bracket */
+
+/* Set the background color of the body element */
+body {
+  background-color: rgb(240, 224, 198);
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------------- .container Styling below (Flex Box) --------------------- */
+
+/* A new CSS rule set selecting all elements with class 'container' ... Opening curly bracket */
+
+/* Apply Flexbox layout to the container element */
+.container {
+  min-height: 100vh;
+  display: flex; /* defining a flex container */
+  justify-content: center; /* Center the item horizontally */
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------- .wrapper Styling below (Flex Box (.container) - ITEM) -------- */
+
+/* A new CSS rule set selecting all elements with class 'wrapper' ... Opening curly bracket */
+
+/* Define the wrapper as a flex container and center its items vertically */
+.wrapper {
+  display: flex; /* defining a flex container */
+  align-items: center; /* Center the item vertically */
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* Define the button styles */
+
+button {
+  border: none;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------- .circle Styling below (Flex Box (.wrapper) - ITEM) -------- */
+
+/* A new CSS rule set selecting all elements with class 'circle' ... Opening curly bracket */
+
+/* Style the circle element as a colored button with a shadow and cursor pointer */
+.circle {
+  background: rgb(250, 234, 132);
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 0 0 330px rgb(224, 204, 73);
+  cursor: pointer;
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------
+IMPORTANT TO NOTE: THE REST CODE IS NOT IN index.html IT IS BEING DEFINED TO
+HELP OUR main.js FILE UNDERSTAND HOW A CERTAIN CLASS WILL BE DEFINDED AFTER
+AN EVENT HAPPENS.
+------------------------------------------------------------------------------ */
+
+/* ----------- .dark-circle Styling below (Flex Box (.wrapper) - ITEM) ------- */
+
+/* A new CSS rule set selecting all elements with class 'dark-circle' ... Opening curly bracket */
+
+/* Define the styles for the dark-circle element */
+
+.dark-circle {
+  background: rgb(37, 37, 37);
+
+  /* defining the dimensions of the content box of the element */
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+
+  /* applying shadow effect of the color black with blur radius of 330px */
+  box-shadow: 0 0 330px black;
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------- .dark-body-class Styling below (Flex Box (.wrapper) - ITEM) -------- */
+
+/* A new CSS rule set selecting all elements with class 'dark-body-class' ... Opening curly bracket */
+
+/* The 'dark-body-class' sets the background color to a dark shade (rgb(6, 6, 6)). */
+
+/* The class uses 'position: fixed' to keep it fixed relative to the viewport, regardless of scrolling. */
+
+/* This class ensures that the dark background takes up the full viewport of the browser. */
+
+/* A new CSS rule set selecting all elements with class 'dark-body-class' ... Opening curly bracket */
+.dark-body-class {
+  background-color: rgb(6, 6, 6);
+
+  /* Taken out of the normal document flow, ensuring a fixed position relative to the viewport. */
+  position: fixed;
+
+  /* The 'dark-body-class' element will cover the entire browser viewport. */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
