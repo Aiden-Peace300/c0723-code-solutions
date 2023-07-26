@@ -1,0 +1,77 @@
+.centering {
+  height: 100%;
+  margin: 0;
+}
+
+.background-color {
+  background-color: rgb(25, 150, 218);
+}
+
+.text-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.text-label {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  font-size: 1.27rem;
+  margin-bottom: 0;
+}
+
+.paragraph-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: lightgray;
+}
+
+.container {
+  margin: 0 auto; /* This will center the container horizontally */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60rem; /* Set a maximum width to center the content */
+  font-family: Lato, sans-serif;
+}
+
+.row {
+  justify-content: center; /* Center the h1 element horizontally */
+  display: flex;
+  width: 100%; /* Each row takes full container width */
+}
+
+.column-one-third {
+  flex-basis: calc(
+    100% * 1 / 3
+  ); /* Each column takes one-third of the row width with a little spacing between them */
+
+  margin: 1.2rem 2rem;
+}
+
+.transparent-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(0.6);
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the contents horizontally within the column */
+}
+
+.logo-background-circle {
+  width: 10rem;
+  height: 10rem;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center the image horizontally within the circle */
+  align-items: center; /* Center the image vertically within the circle */
+}
