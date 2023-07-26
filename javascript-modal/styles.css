@@ -1,0 +1,111 @@
+/* A new CSS rule set selecting all elements of the body ... Opening curly bracket */
+body {
+  margin: 0;
+  padding: 0;
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------------- .container Styling below (Flex Box) --------------------- */
+
+/* A new CSS rule set selecting all elements with class 'container' ... Opening curly bracket */
+
+/* Apply Flexbox layout to the container element */
+
+.container {
+  display: flex; /* defining a flex container */
+  justify-content: center; /* Horizontally centers the item */
+  align-items: center; /* Vertically centers the item */
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------- .wrapper Styling below (Flex Box (.container) - ITEM) -------- */
+
+/* A new CSS rule set selecting all elements with class 'wrapper' ... Opening curly bracket */
+
+/* Define the wrapper as a flex container and center its items vertically */
+
+.wrapper {
+  display: flex; /* defining a flex container */
+  justify-content: flex-start; /* Center the item  */
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* Define the button styles */
+
+/* A new css rule set selecting all elements of button ... Opening curly bracket */
+button {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+/* ----------- .circle Styling below (Flex Box (.wrapper) - ITEM) -------- */
+
+/* A new CSS rule set selecting all elements with class 'circle' ... Opening curly bracket */
+
+/* Style the circle element as a colored button with a shadow and cursor pointer */
+
+.openButton {
+  padding: 0.6rem 3rem;
+  font-size: 1.8rem;
+  background-color: rgb(74, 74, 233);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  position: fixed;
+} /* Closing curly bracket */
+
+/* --------------------------------------------------------------------------- */
+
+.okay-button {
+  background-color: rgb(235, 93, 93);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.surveyQuestion {
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-bottom: 3rem;
+}
+
+.surveryQuestionPopupWindow {
+  display: none; /* Hide the modal by default */
+
+  /* To insure the rest of the page is has Semi-transparent background while
+  surveryQuestionPopupWindow is up */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  width: 100vw; /* Take up the full viewport width */
+  height: 100vh; /* Take up the full viewport height */
+
+  /* The 'dark-body-class' element will cover the entire browser viewport. */
+  position: fixed;
+
+  /* The 'surveryQuestionPopupWindow' element will cover the entire browser viewport. */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.popup {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+}
