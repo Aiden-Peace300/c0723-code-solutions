@@ -13,6 +13,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - Why is it possible to listen for events on one element that actually happen its descendent elements?
+  BUBBLING
+
   Capturing and bubbling allow us to implement one of the most powerful event handling patterns called event delegation.
 
   https://javascript.info/bubbling-and-capturing
@@ -42,7 +44,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 ---
 
 - If you wanted to insert new clickable DOM elements into the page using JavaScript, how could you avoid adding an event listener to every new element individually?
-  event.stopPropagation() OR event.stopImmediatePropagation()
+  add event listen to parent element!
 
 ## Notes
 
