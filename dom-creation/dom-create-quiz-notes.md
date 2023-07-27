@@ -28,10 +28,10 @@ element.setAttribute(attributeName, attributeValue);
 
   - create the new element: using "domcument.createElement()" to create a new node in memory.
   - set any attributes and content: using methods like as setAttribute() or textContent before adding the element to the DOM.
-  - Find the parent element: Identify the parent element where you want to insert the new element. You can do this using methods like querySelector() to accomplish this.
   - Insert the new element into the DOM: Use DOM manipulation methods like appendChild()
 
 - What is the `textContent` property of an element object for?
+  GETTER & SETTER
   The textContent property of an element object is used to get or set the text content of the element, including any nested elements it contains. It represents the text content that appears between the opening and closing tags of the element in the HTML document.
 
   When you access the textContent property of an element, it returns a string representing the concatenated text content of the element and its descendants. If the element contains other child elements, their text content is also included in the string.
