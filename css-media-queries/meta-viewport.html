@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- your code here 👇 -->
+
+    <title>CSS Media Queries - Meta Viewport</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      .container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      }
+
+      /* The @media rule with the specified query
+       only screen and (min-width: 768px) targets
+       devices with a minimum screen width of
+       768 pixels. It allows applying specific
+       CSS styles only to screens that meet this
+       condition. */
+      @media only screen and (min-width: 768px) {
+        .box {
+          background-color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
