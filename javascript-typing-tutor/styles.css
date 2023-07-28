@@ -1,0 +1,39 @@
+/* A new CSS rule set selecting all elements of the body ... Opening curly bracket */
+body {
+  height: 100vh; /* This assumes you want the body to take up the full viewport height. */
+  display: flex; /* Added to enable flexbox layout */
+  justify-content: center; /* Added to horizontally center the container */
+  align-items: center; /* Added to vertically center the container */
+} /* Closing curly bracket */
+
+/* A new CSS rule set selecting all elements of the p ... Opening curly bracket */
+p {
+  font-family: Courier, monospace;
+  font-size: 4.2rem;
+  font-weight: bold;
+  position: relative; /* Added to position the line correctly */
+} /* Closing curly bracket */
+
+/* A new CSS rule set selecting all elements of the 'container' class .. Opening curly bracket */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* Closing curly bracket */
+
+/**** LINE STUFF BELOW ***/
+.greenChar {
+  color: green;
+}
+
+.redChar {
+  color: red;
+}
+
+.bottomBorder {
+  border-bottom: 4px solid black;
+}
+
+.redBottomBorder {
+  border-bottom: 4px solid red;
+}
