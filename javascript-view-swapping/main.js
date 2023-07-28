@@ -5,7 +5,7 @@ const $tabContainer = document.querySelector('.tab-container');
 const $tabChildNodes = document.querySelectorAll('.tab');
 
 // selects the All the HTML element with the class ".view" and assigns it to the variable "$ViewChildNodes" using JavaScript.
-const $ViewChildNodes = document.querySelectorAll('.view');
+const $viewChildNodes = document.querySelectorAll('.view');
 
 // defining a function called handleClick()
 function handleClick(event) {
@@ -35,21 +35,19 @@ function handleClick(event) {
   const $dataViewAttrValue = event.target.getAttribute('data-view');
 
   // iterating though ViewChildNodes ("array")
-  for (let i = 0; i < $ViewChildNodes.length; i++) {
+  for (let i = 0; i < $viewChildNodes.length; i++) {
     // view will hold text content for the tab clicked
-    const view = $ViewChildNodes[i];
+    const view = $viewChildNodes[i];
 
     // if current attribute of 'data-view' value in the view object is the same as dataViewAttrValue ...
     if (view.getAttribute('data-view') === $dataViewAttrValue) {
       // ... execute the following
       // adding 'view' class to the current view
-      console.log('IF $dataViewAttrValue: ', $dataViewAttrValue);
       view.classList.add('view');
       view.classList.remove('hidden');
     } else {
       // if current view is NOT the same as dataViewAttrValue ...
       // remove 'hidden' class to the current view
-      console.log('ELSE $dataViewAttrValue: ', $dataViewAttrValue);
       view.classList.add('hidden');
       view.classList.remove('view');
     }
