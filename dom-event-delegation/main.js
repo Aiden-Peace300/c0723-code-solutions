@@ -16,11 +16,11 @@ function handleClick(event) {
   console.log('event.target.tagName :', event.target.tagName);
 
   if (event.target.tagName === 'BUTTON') {
-    const closest = event.target.closest('.task-list-item');
-    console.log('closest event.target :', closest);
+    const $closest = event.target.closest('.task-list-item');
+    console.log('closest event.target :', $closest);
 
-    if (closest) {
-      closest.remove();
+    if ($closest) {
+      $closest.remove();
     }
   }
 }
