@@ -34,14 +34,16 @@ body {
 
 @media only screen and (width >= 578px) {
   .row > .col-sm-half {
-    flex-basis: calc(100% / 2);
+    flex-basis: 50%;
   }
+}
 
+@media only screen and (width >= 768px) {
   .row > .col-lg-third {
     flex-basis: calc(100% * 1 / 3);
   }
 
   .row > .col-lg-fourth {
-    flex-basis: calc(100% / 4);
+    flex-basis: 25%;
   }
 }

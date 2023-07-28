@@ -6,7 +6,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What is a **breakpoint** in responsive Web design?
 
-   the “point” at which a website's content and design will adapt in a certain way to provide the best possible user experience
+   the “point” at which a media query is introduced
 
    This approach means that it doesn't matter what the exact dimensions are of the device being used, every range is catered for. The points at which a media query is introduced are known as breakpoints.
 
@@ -20,7 +20,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.
 
 - If you introduce CSS rules for a smaller `min-width` _after_ the styles for a larger `min-width` in your style sheet, the CSS rules for the **smaller** `min-width` will "win". Why is that?
-  the smaller min-width will "win" or take precedence over the rules for the larger min-width. Because order matters!
+  the smaller min-width will "win" or take precedence over the rules for the larger min-width. Because of source order.
 
 
 ## Notes
