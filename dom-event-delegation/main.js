@@ -1,6 +1,5 @@
 // the querySelector method of the document object calls one argument a string assigns it to the constant variable '$clickButton'
 const $taskList = document.querySelector('.task-list');
-const $doneButtom = document.querySelector('.done');
 
 function handleClick(event) {
   // will output the tagName with text content
@@ -26,6 +25,3 @@ function handleClick(event) {
 }
 // the addEventListener method of the '$taskList' object calls two arguments a type string and 'handleClick' function
 $taskList.addEventListener('click', handleClick);
-
-// the addEventListener method of the '$taskList' object calls two arguments a type string and 'handleClick' function
-$doneButtom.addEventListener('click', handleClick);
