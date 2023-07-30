@@ -31,7 +31,6 @@ body {
 }
 
 /* your code 👇 here */
-
 @media only screen and (width >= 578px) {
   .row > .col-sm-half {
     flex-basis: 50%;
