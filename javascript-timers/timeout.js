@@ -2,4 +2,4 @@ const $message = document.querySelector('.message');
 
 setTimeout(() => {
   $message.innerHTML = `Hello There`;
-}, '5000');
+}, 5000);
