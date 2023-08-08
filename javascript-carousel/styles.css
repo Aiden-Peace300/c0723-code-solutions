@@ -1,0 +1,70 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-full {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.photo {
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+.left-arrow {
+  position: relative;
+  top: 16rem;
+  left: 2rem;
+  cursor: pointer;
+}
+
+.right-arrow {
+  position: relative;
+  bottom: 16rem;
+  left: 40rem;
+  cursor: pointer;
+}
+
+#circle-one {
+  position: relative;
+  left: 15rem;
+}
+
+#circle-two {
+  position: relative;
+  left: 18rem;
+  bottom: 1.1rem;
+}
+
+#circle-three {
+  position: relative;
+  left: 21rem;
+  bottom: 2.2rem;
+}
+
+#circle-four {
+  position: relative;
+  left: 24rem;
+  bottom: 3.3rem;
+}
+
+#circle-five {
+  position: relative;
+  left: 27rem;
+  bottom: 4.4rem;
+}
