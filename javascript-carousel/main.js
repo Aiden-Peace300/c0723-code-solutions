@@ -16,8 +16,11 @@ let loopInterval = setInterval(updateImageLoop, 3000);
 
 function updateImageLoop() {
   $image.src = imageArray[setIntervalIndex];
+  updateCircles(setIntervalIndex);
   setIntervalIndex = (setIntervalIndex + 1) % imageArray.length;
 }
+
+let currentIndex = 0;
 
 // Clear the interval and restart the loop after the last image
 function resetLoop() {
@@ -28,8 +31,6 @@ function resetLoop() {
 
 // Call resetLoop to start over the loop after the last image
 resetLoop();
-
-let currentIndex = 0;
 
 function updateImage() {
   $image.src = imageArray[currentIndex];
