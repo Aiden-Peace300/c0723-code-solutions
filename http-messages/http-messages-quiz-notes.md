@@ -13,7 +13,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   ANSWER: a server is a piece of computer hardware or software (computer program) that provides functionality (resources, data, services, or programs) for other programs or devices, called "clients"
 
 - Which HTTP method does a browser issue to a web server when you visit a URL?
-  ANSWER: GET or POST request
+  ANSWER: GET method
 
 - What three things are on the start-line of an HTTP **request** message?
   ANSWER:
@@ -40,7 +40,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   ANSWER: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 - Is a body required for a valid HTTP request or response message?
-  ANSWER: body is not required
+  ANSWER: body is not required, it is useful
 
 ## Notes
 
