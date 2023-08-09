@@ -3,14 +3,14 @@
 
 class Circle extends Shape {
   constructor(radius) {
-    super();
+    const area = Math.PI * radius ** 2;
+    const perimeter = 2 * Math.PI * radius;
+    super(Math.floor(area), Math.floor(perimeter));
     this.radius = radius;
-    this.perimeter = 2 * Math.PI * radius;
-    this.area = Math.PI * radius ** 2;
   }
 
   describe() {
-    return "The circle's radius is: " + this.radius;
+    return super.describe() + " The circle's radius is: " + this.radius;
   }
 }
 
