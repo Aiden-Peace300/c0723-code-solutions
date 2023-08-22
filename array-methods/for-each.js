@@ -4,8 +4,10 @@ console.log('In Order:');
 values.forEach((element) => console.log(element));
 
 const reverseArr = [];
-for (let i = values.length - 1; i >= 0; i--) {
-  reverseArr.push(values[i]);
-}
+
 console.log('Reverse Order:');
+values.forEach((element) => {
+  reverseArr.unshift(element);
+});
+
 reverseArr.forEach((element) => console.log(element));
