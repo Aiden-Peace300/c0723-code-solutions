@@ -3,6 +3,7 @@
 function uniqueLinear(words) {
   const seen = {}; // 1 * 1 = O(1)
   const unique = []; // 1 * 1 = O(1)
+
   for (
     let i = 0; // 1 * n = O(n) NESTED LOOP!
     i < words.length; // 2 * n = O(2n) ~= O(n)
