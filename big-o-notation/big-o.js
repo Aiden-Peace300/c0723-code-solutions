@@ -5,15 +5,15 @@ function uniqueLinear(words) {
   const unique = []; // 1 * 1 = O(1)
 
   for (
-    let i = 0; // 1 * n = O(n) NESTED LOOP!
+    let i = 0; // 1 * 1 = O(1) NESTED LOOP!
     i < words.length; // 2 * n = O(2n) ~= O(n)
-    i++ // 1 * n = O(n)
+    i++ // 2 * n = O(2n) ~= O(n)
   ) {
-    const word = words[i]; // 1 * 1 = O(1)
+    const word = words[i]; // 2 * n = O(2n) ~= O(n)
     if (!seen[word]) {
-      // 1 * 1 = O(1)
-      seen[word] = true; // 1 * 1 = O(1)
-      unique[unique.length] = word; // 1 * 1 = O(1)
+      // 2 * n = O(2n) ~= O(n)
+      seen[word] = true;
+      unique[unique.length] = word; // 2 * n = O(2n) ~= O(n)
     }
   }
   return unique; // 1 * 1 = O(1)
@@ -23,26 +23,26 @@ function uniqueQuadratic(words) {
   const unique = []; // 1 * 1 = O(1)
 
   for (
-    let i = 0; // 1 * n     = O(n) NESTED LOOP!
-    i < words.length; // 2 * n * n = O(2n^2) ~= O(n^2)
-    i++ // 1 * n * n = O(n^2)
+    let i = 0; // 1 * 1 = O(1)
+    i < words.length; // 2 * n = O(2n) ~= O(n)
+    i++ // 2 * n = O(2n) ~= O(n)
   ) {
-    const word = words[i]; // 1 * 1 = O(1)
-    let isUnique = true; // 1 * 1 = O(1)
+    const word = words[i]; // 2 * n = O(2n) ~= O(n)
+    let isUnique = true; // 1 * n = O(n)
     for (
-      let c = 0; // 1 * 1 = O(1)
-      c < i; // 2 * n = O(2n) ~= O(n)
-      c++ // 1 * n = O(n)
+      let c = 0; // 1 * n = O(n)
+      c < i; // 1 * n^2 = O(n^2)
+      c++ // 2 * n^2 = O(n^2)
     ) {
-      const comparing = words[c]; // 1 * n = O(n)
+      const comparing = words[c]; // 2 * n^2 = O(2(n^2)) ~= O(n^2)
       if (comparing === word) {
-        // 1 * n = O(n)
-        isUnique = false; // 1 * n = O(n)
+        // 1 * n^2 = O(n^2)
+        isUnique = false; // 1 * n^2 = O(n^2)
       }
     }
     if (isUnique) {
-      // 1 * 1 = O(1)
-      unique[unique.length] = word; // 1 * 1 = O(1)
+      // 1 * n = O(n)
+      unique[unique.length] = word; // 2 * n = O(2n) ~= O(n)
     }
   }
   return unique; // 1 * 1 = O(1)
