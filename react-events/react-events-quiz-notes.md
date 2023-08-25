@@ -17,7 +17,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   3. Use the Event Handler in the Child Component
 
 - What is the naming convention for event handlers?
-  CamelCase
+  CamelCase & "handle[ENTER REST OF NAME]"
 
 - What is an "event handler prop"? Which component declares the prop?
   An "event handler prop" in React refers to a prop that is passed from a parent component to a child component that contains a function that will be used as an event handler in the child component.
@@ -33,4 +33,4 @@ After completing this exercise, you should be able to discuss or answer the foll
   - onError: Similarly, an onError prop could be defined to handle error events that occur within the component.
 
 - What is the naming convention for custom event handler props?
-  "handle[ENTER REST OF NAME]"
+  the word "on" and CamelCase
