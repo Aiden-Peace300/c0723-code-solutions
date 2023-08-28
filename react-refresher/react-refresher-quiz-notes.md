@@ -33,9 +33,9 @@ function App() {
 - What are React hooks and what are the three "Rules of Hooks"?
   React hooks are functions that allow you to use state and lifecycle features in functional components without needing to write a class component.
 
-  1. Only Call Hooks at the Top Level
+  1. Only Call Hooks need to start with USE-followed by uppercase!
   2. Only Call Hooks from React Functions
-  3. Call Hooks in the Same Order
+  3. Hooks can only be called within a component or another hook
 
 - How do you manage state in a React component?
 
