@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from './CustomButton';
 import './App.css';
 
-export default function App() {
+function App() {
   const [count, setCount] = useState(0);
 
   function decrementCount() {
@@ -19,3 +19,5 @@ export default function App() {
     </>
   );
 }
+
+export default App;
