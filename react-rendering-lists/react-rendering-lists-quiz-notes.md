@@ -8,7 +8,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   we want to dynamically create a list when you notice the same property or element in a data stucture
 
 - Why is it important for React components to be data-driven?
-  allows us to use dynamic and user interface that will respond to changes
+  allows us to use dynamic interact with the user interface so that the component can respond to changes
+
+  data-driven means when changing data causes my browser to change
 
 - Where in the component code would a list of React components typically be built?
   in the return statement
