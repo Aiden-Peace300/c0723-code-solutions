@@ -1,0 +1,10 @@
+label {
+  padding: 1rem;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 1rem;
+}
