@@ -1,0 +1,91 @@
+/* A new css rule set selecting all elements in the 'body' elements ... Opening curly bracket */
+body {
+  /* the code below is to get all items in contain to be horizontally centered in browser */
+  margin: 0 auto; /* centering body */
+  font-family: Karla, sans-serif;
+  height: 100vh;
+}
+
+.wrap-container {
+  position: relative;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  font-family: Karla, sans-serif;
+}
+
+.column-full {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-padding {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.text-gray {
+  color: rgb(90, 88, 88);
+}
+
+/* A new css rule set selecting all elements in the 'card-wrapper' class ... Opening curly bracket */
+.wrapper {
+  flex-basis: calc(100% / 2);
+  padding: 0.5rem;
+} /* Closing curly bracket */
+
+/* A new css rule set selecting all elements in the 'row' class elements ... Opening curly bracket */
+.row {
+  display: flex;
+  justify-content: center; /* Centering child elements horizontally */
+}
+
+/* center class was made to center text with row class */
+.center {
+  justify-content: center; /* to center h1 element */
+  text-align: center; /* to center paragraph under title */
+}
+
+.h2-font {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+/* A new css rule set selecting all elements of caption ... Opening curly bracket */
+button {
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Karla, sans-serif;
+  color: red;
+  font-size: 12px; /* 20px is being assigned to the 'font-size' property */
+  border-color: red;
+  border-width: 0.2rem;
+  padding: 0.4rem 2rem;
+} /* Closing curly bracket */
+
+/* A new css rule set selecting all button elements with the class hover (pseudo-class) ... Opening curly bracket */
+button:hover {
+  color: white; /* white is being assigned to the 'color' property */
+  background-color: red; /* white is being assigned to the 'background-color' property */
+  cursor: pointer; /* pointer is being assigned to the 'cursor' property */
+} /* Closing curly bracket */
+
+h1 {
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0;
+}
