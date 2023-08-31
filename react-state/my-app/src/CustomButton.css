@@ -1,0 +1,19 @@
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: #008001;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red,
+.green,
+.purple {
+  color: white;
+  padding: 0.5rem;
+  border: inset 0.3rem gray;
+}
