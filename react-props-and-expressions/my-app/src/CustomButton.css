@@ -1,0 +1,23 @@
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: #008001;
+}
+
+.red,
+.green {
+  border: outset 0.3rem gray;
+}
+
+.blue {
+  background-color: #add8e6;
+  border: solid 0.3rem #015fcc;
+}
+
+.red,
+.green,
+.blue {
+  padding: 0.5rem;
+}
