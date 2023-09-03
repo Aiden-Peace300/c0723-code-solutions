@@ -14,7 +14,7 @@ export default function SearchableList({ list }) {
   );
 
   return (
-    <form>
+    <>
       <label className="wrapper">
         <FaMagnifyingGlass className="icon" />
         <input
@@ -37,6 +37,6 @@ export default function SearchableList({ list }) {
           ))
         )}
       </ul>
-    </form>
+    </>
   );
 }
