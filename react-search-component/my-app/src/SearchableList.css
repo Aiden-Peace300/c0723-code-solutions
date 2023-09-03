@@ -1,0 +1,43 @@
+.itemInListStyle,
+.noItemsStyle {
+  color: black; /* declaring 'black' as the text color */
+  text-align: left; /* declaring text to start from the left */
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding-left: 1.3rem;
+  margin: 0;
+}
+
+.inputStyle {
+  border-radius: 2rem;
+  padding: 0.6rem;
+  padding-left: 25px;
+  justify-content: flex-start;
+}
+
+p {
+  list-style: none;
+  margin: 0;
+}
+
+input {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  position: absolute;
+  left: 3px;
+  padding-left: 0.3rem;
+
+  /* Vertically center the icon in the input */
+  top: calc(50% - 1em);
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
