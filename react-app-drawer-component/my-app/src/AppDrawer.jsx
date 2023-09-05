@@ -6,22 +6,21 @@ export default function AppDrawer() {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleIconClicked() {
-    console.log(isOpen);
     setIsOpen(!isOpen);
   }
 
   return (
     <>
       {isOpen == false && <GiHamburgerMenu onClick={handleIconClicked} />}
-      {isOpen && <DisplayMenu />}
+      {isOpen && <DisplayMenu isOpen={isOpen} />}
       <Background onClick={handleIconClicked} isDrawn={isOpen} />
     </>
   );
 }
 
-function DisplayMenu() {
+function DisplayMenu({ isOpen }) {
   return (
-    <div className="menu-drawer">
+    <div className={isOpen ? 'menu-drawer is-open' : 'menu-drawer'}>
       <h1>Menu</h1>
       <p>About</p>
       <p>Get Stated</p>
