@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 export default function Accordion({ topics }) {
-  const [isToggledOn, setToggle] = useState();
+  const [toggle, setToggle] = useState();
 
   function handleTitleClicked(topic) {
-    setToggle(topic === isToggledOn ? undefined : topic);
+    setToggle(topic === toggle ? undefined : topic);
   }
 
   return (
@@ -13,7 +13,7 @@ export default function Accordion({ topics }) {
         <Topic
           key={topic.id}
           topic={topic}
-          isOpen={topic === isToggledOn}
+          isOpen={topic === toggle}
           onTopicClick={() => handleTitleClicked(topic)}
         />
       ))}
