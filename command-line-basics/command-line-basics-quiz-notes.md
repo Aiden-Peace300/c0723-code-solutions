@@ -37,7 +37,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - `mkdir` (MEANING: make directory) mkdir is used when you would like to create a directory from the CLI (Command line interface).
 
-- `mv` (MEANING: Move) mv is used when you want to moves files and directories from one directory to another or renames a file or directory
+- `mv` (MEANING: Move) mv is used when you want to moves files and directories from one directory to another or renames a file or directory (REWRITING THE $PATH)
 
 - `rm` (MEANING: remove) rm is used when you would like to remove files, or directories from the CLI
 
