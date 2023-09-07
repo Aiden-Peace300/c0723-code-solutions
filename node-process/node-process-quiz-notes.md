@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a computer process?
-  A process is an instance of a program running in a computer
+  A process is an instance of a program running in a computer.
 
 - Roughly how many computer processes are running on your host operating system (Task Manager or Activity Monitor)?
   As of right now for me it is 172 but in general A whole lot! There is no correct amount of processes to aim for.
@@ -16,4 +16,4 @@ After completing this exercise, you should be able to discuss or answer the foll
 ## Notes
 
 - what is the 'top' command ?
-  top command is used to show the Linux processes. It provides a dynamic real-time view of the running system
+  top command is used to show the Linux processes. It provides a dynamic real-time view of the running system.
