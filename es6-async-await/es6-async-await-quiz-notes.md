@@ -5,9 +5,8 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the `async` and `await` keywords used for?
+  The `async` keyword means one simple thing: a function always returns a promise.
   The `await` keyword is used to indicate that the JavaScript Runtime should "wait" or "pause" until the asynchronous function completes.
-
-  The word `async` before a function means one simple thing: a function always returns a promise.
 
 - How do `async` and `await` differ from `Promise.then` and `Promise.catch`?
   Async/await provides a more procedural syntax that makes asynchronous code look similar to synchronous code, with better error handling capabilities.

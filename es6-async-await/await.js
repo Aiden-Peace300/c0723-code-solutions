@@ -27,7 +27,7 @@ async function fetchSeveral() {
 
     const response3 = await fetch('foo1/bar.html');
     const msg3 = await response3.toString();
-    console.log(elapsed(), 'fetchSeveral2:', msg3);
+    console.log(elapsed(), 'fetchSeveral3:', msg3);
   } catch (error) {
     console.error(error);
   }
@@ -45,7 +45,7 @@ async function fetchChained() {
 
     const response3 = await fetch('foo-chain/bar.html');
     const msg3 = await response3.toString();
-    console.log(elapsed(), 'fetchChained2:', msg3);
+    console.log(elapsed(), 'fetchChained3:', msg3);
   } catch (error) {
     console.error(error);
   }
