@@ -9,11 +9,3 @@ export default function takeAChance(name) {
     }, 2000);
   });
 }
-
-takeAChance('Aiden')
-  .then((value) => {
-    console.log(value);
-  })
-  .catch((error) => {
-    console.log(error.message);
-  });
