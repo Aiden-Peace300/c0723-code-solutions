@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   Three states of promises: Resolved, Reject, Pending
 
 - How do you handle the fulfillment of a Promise?
-  with a try statement
+  with a then statement
 
 - How do you handle the rejection of a Promise?
   with a catch statement
