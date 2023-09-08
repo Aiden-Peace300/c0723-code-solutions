@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises';
 
-const randomNum = Math.random().toString();
+const randomNum = Math.random();
 const text = randomNum + '\n';
 try {
   await writeFile('./random.txt', text);

@@ -5,8 +5,14 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What method is available in the `node:fs` module for writing data to a file?
+  writeFile method
+
+  ```javascript
+  import { writeFile } from 'node:fs/promises';
+  ```
 
 - Are file operations using the `fs` module synchronous or asynchronous?
+  Every method in fs module has synchronous and asynchronous forms. Asynchronous methods take a last parameter as completion function callback. Asynchronous method is preferred over synchronous method because it never blocks the program execution where as the synchronous method blocks.
 
 ## Notes
 
@@ -17,7 +23,7 @@ How to write `Code Examples` in markdown
 for JS:
 
 ```javascript
-const data = 'Howdy';
+import { writeFile } from 'node:fs/promises';
 ```
 
 for HTML:
