@@ -5,14 +5,19 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a directory?
+  a directory is a file system cataloging structure
 
 - What is a relative file path?
+  a link that points to a file location on the page where the link is located
 
 - What is an absolute file path?
+  the specifying the location of a file or directory from the root directory(/)
 
 - What module does Node.js include for manipulating the file system?
+  fs module (file system module)
 
 - What method is available in the `node:fs` module for reading data from a file?
+  read() method
 
 ## Notes
 
