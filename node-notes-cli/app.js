@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 
 const argVar = process.argv[2];
 const content = process.argv[3];
+const content2 = process.argv[4];
 
 if (argVar === 'read' && content === undefined) {
   try {
@@ -38,6 +39,44 @@ if (argVar === 'create' && content !== undefined) {
 
       // Increment 'nextId'
       data.nextId++;
+
+      // Write the updated data back to the file
+      await writeFile('./data.json', JSON.stringify(data, null, 2));
+    }
+  } catch (err) {
+    console.error('Error reading or parsing the file:', err);
+  }
+}
+
+if (argVar === 'delete' && content !== undefined) {
+  try {
+    // Read the existing data from the file
+    const response = await readFile('./data.json', 'utf8');
+    const data = JSON.parse(response);
+
+    // Check if 'data' exists and has a the property the user typed
+    if (data && Object.getOwnPropertyDescriptor(data.notes, content)) {
+      // delete from data structure
+      delete data.notes[content];
+
+      // Write the updated data back to the file
+      await writeFile('./data.json', JSON.stringify(data, null, 2));
+    }
+  } catch (err) {
+    console.error('Error reading or parsing the file:', err);
+  }
+}
+
+if (argVar === 'update' && content !== undefined) {
+  try {
+    // Read the existing data from the file
+    const response = await readFile('./data.json', 'utf8');
+    const data = JSON.parse(response);
+
+    // Check if 'data' exists and has a the property the user typed
+    if (data && !Object.getOwnPropertyDescriptor(data.notes, content2)) {
+      // delete from data structure
+      data.notes[content] = content2;
 
       // Write the updated data back to the file
       await writeFile('./data.json', JSON.stringify(data, null, 2));
