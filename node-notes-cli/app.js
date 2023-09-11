@@ -10,10 +10,8 @@ if (argVar === 'read' && content === undefined) {
     const data = JSON.parse(response);
     if (data && data.notes) {
       for (const key in data.notes) {
-        if (Object.getOwnPropertyDescriptor(data.notes, key)) {
-          const noteValue = data.notes[key];
-          console.log(`${key}: ${noteValue}`);
-        }
+        const noteValue = data.notes[key];
+        console.log(`${key}: ${noteValue}`);
       }
     } else {
       console.error(
@@ -21,7 +19,7 @@ if (argVar === 'read' && content === undefined) {
       );
     }
   } catch (err) {
-    console.error('Error reading or parsing the file:', err);
+    console.log(err.message);
   }
 }
 
@@ -54,14 +52,11 @@ if (argVar === 'delete' && content !== undefined) {
     const response = await readFile('./data.json', 'utf8');
     const data = JSON.parse(response);
 
-    // Check if 'data' exists and has a the property the user typed
-    if (data && Object.getOwnPropertyDescriptor(data.notes, content)) {
-      // delete from data structure
-      delete data.notes[content];
+    // delete from data structure
+    delete data.notes[content];
 
-      // Write the updated data back to the file
-      await writeFile('./data.json', JSON.stringify(data, null, 2));
-    }
+    // Write the updated data back to the file
+    await writeFile('./data.json', JSON.stringify(data, null, 2));
   } catch (err) {
     console.error('Error reading or parsing the file:', err);
   }
@@ -80,6 +75,8 @@ if (argVar === 'update' && content !== undefined) {
 
       // Write the updated data back to the file
       await writeFile('./data.json', JSON.stringify(data, null, 2));
+    } else {
+      console.log("The id you provided isn't found");
     }
   } catch (err) {
     console.error('Error reading or parsing the file:', err);
