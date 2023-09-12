@@ -14,4 +14,4 @@ After completing this exercise, you should be able to discuss or answer the foll
   In Express, you can mount middleware with an Express application using the app.use() method.
 
 - Which objects does an Express application pass to your middleware to manage the request/response lifecycle of the server?
-  req (short for "request") and res (short for "response")
+  req (short for "request") and res (short for "response").
