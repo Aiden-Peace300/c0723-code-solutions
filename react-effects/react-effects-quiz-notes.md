@@ -25,7 +25,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   - Simple Render Logic: For simple rendering logic that doesn't involve side effects, there's no need for an effect. Just return the JSX directly from the functional component.
 
 - When do Effects run?
-  useEffect runs by default after every render of the componen
+  useEffect runs by default after every render of the component
 
 - What function is used to declare an Effect?
   `useEffect` function
