@@ -20,5 +20,3 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is an attribute and what other names are used to describe them?
 
   A table is a list of rows each having the same set of attributes. Attributes are commonly referred to as columns.
-
-  there for another word for table maybe rows and columns
