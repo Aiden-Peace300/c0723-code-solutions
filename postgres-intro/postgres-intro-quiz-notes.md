@@ -34,6 +34,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   - High Security - Users can designate tables as confidential or non-confidential in a relational database system.
   - and much more read the link to see get more information!
 
+  DISADVANTAGES:
+
+  - SCALEING - the data is not scalable on different physical storage servers
+
 - What is one way to see if PostgreSQL is running?
   using the top commnad in one terminal and using a `sudo service postgresql start` in the another terminal after running both of these commands you will postgressql start in the context of your top command terminal.
 
