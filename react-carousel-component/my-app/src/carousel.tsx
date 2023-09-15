@@ -12,6 +12,14 @@ type Props = {
   images: string[];
 };
 
+type LeftArrowProps = {
+  prev: () => void;
+};
+
+type RightArrowProps = {
+  next: () => void;
+};
+
 export default function Carousel({ images }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [time] = useState(0);
@@ -67,17 +75,9 @@ export default function Carousel({ images }: Props) {
   );
 }
 
-type RightArrowProps = {
-  next: () => void;
-};
-
 function RightArrow({ next }: RightArrowProps) {
   return <FaChevronRight className="next-image" onClick={next} />;
 }
-
-type LeftArrowProps = {
-  prev: () => void;
-};
 
 function LeftArrow({ prev }: LeftArrowProps) {
   return <FaChevronLeft className="previous-image" onClick={prev} />;
