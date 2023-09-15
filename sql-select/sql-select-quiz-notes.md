@@ -12,14 +12,11 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using the key words `SELECT` and `FROM`!
 
 ```SQL
-SELECT * from "FILENAME"
+SELECT 'COLUMN1', 'COLUMN2', 'COLUMN3',... from "FILENAME"
 ```
 
 - How do you filter rows based on some specific criteria?
-
-```SQL
-SELECT 'ATTRIBUTE1', 'ATTRIBUTE2', 'ATTRIBUTE3',... from "FILENAME"
-```
+  the keyword `WHERE`
 
 - What are the benefits of formatting your SQL?
   improve the readability and maintainability of your code, making it easier to understand, debug, and modify.
