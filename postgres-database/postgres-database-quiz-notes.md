@@ -22,31 +22,3 @@ After completing this exercise, you should be able to discuss or answer the foll
   A table is a list of rows each having the same set of attributes. Attributes are commonly referred to as columns.
 
   there for another word for table maybe rows and columns
-
-## Notes
-
-All student notes should be written here.
-
-How to write `Code Examples` in markdown
-
-for JS:
-
-```javascript
-const data = 'Howdy';
-```
-
-for HTML:
-
-```html
-<div>
-  <p>This is text content</p>
-</div>
-```
-
-for CSS:
-
-```css
-div {
-  width: 100%;
-}
-```
