@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 // Defining a route to handle GET requests to retrieve all grades
-app.get('/api/grades', async (req, res, next) => {
+app.get('/api/grades', async (res) => {
   try {
     const sql = `
       SELECT * FROM "grades"
@@ -40,7 +40,7 @@ app.get('/api/grades', async (req, res, next) => {
 });
 
 // Defining a route to handle POST requests to insert a new grade
-app.post('/api/grades', async (req, res, next) => {
+app.post('/api/grades', async (req, res) => {
   try {
     // Extracting data from the request body
     const { name, course, score } = req.body;
@@ -76,7 +76,7 @@ app.post('/api/grades', async (req, res, next) => {
 });
 
 // Defining a route to handle PUT requests to update a row by gradeId
-app.put('/api/grades/:gradeId', async (req, res, next) => {
+app.put('/api/grades/:gradeId', async (req, res) => {
   try {
     // Extracting data from the request body
     const { name, course, score } = req.body;
@@ -129,7 +129,7 @@ app.put('/api/grades/:gradeId', async (req, res, next) => {
 });
 
 // Defining a route to handle DELETE requests to delete a grade by gradeId
-app.delete('/api/grades/:gradeId', async (req, res, next) => {
+app.delete('/api/grades/:gradeId', async (req, res) => {
   try {
     const { gradeId } = req.params; // Extract gradeId from URL parameters
 
