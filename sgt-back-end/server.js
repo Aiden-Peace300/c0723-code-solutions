@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 // Defining a route to handle GET requests to retrieve all grades
-app.get('/api/grades', async (res) => {
+app.get('/api/grades', async (req, res) => {
   try {
     const sql = `
       SELECT * FROM "grades"
@@ -26,15 +26,11 @@ app.get('/api/grades', async (res) => {
     // Checking if any rows were returned from the query
     const grades = result.rows;
 
-    if (grades.length === 0) {
-      // If there are no rows, return an empty array
-      res.status(200).json([]);
-    } else {
-      // If there are rows, return them as an array of objects
-      res.status(200).json(grades);
-    }
+    // If there are rows, return them as an array of objects
+    res.status(200).json(grades);
   } catch (err) {
     // Handling errors by sending a 500 status code and an error message
+    console.error(err);
     res.status(500).json({ error: 'An error occurred while fetching grades.' });
   }
 });
@@ -54,7 +50,6 @@ app.post('/api/grades', async (req, res) => {
       const sql = `
         INSERT INTO "grades" ("name", "course", "score")
         VALUES ($1, $2, $3)
-        ORDER BY "gradeId"
         RETURNING *
       `;
       const params = [name, course, score];
@@ -87,37 +82,24 @@ app.put('/api/grades/:gradeId', async (req, res) => {
       // Handling client validation errors with a 400 status code
       res.status(400).json({ error: 'Invalid grade data.' });
     } else {
-      const checkGradeId = `SELECT * FROM "grades" 
-                            WHERE "gradeId" = $1`;
+      // Updating the grade in the database
+      const updateGradeSql = `
+        UPDATE "grades"
+        SET "name" = $1, "course" = $2, "score" = $3
+        WHERE "gradeId" = $4
+        RETURNING *
+      `;
+      const updateGradeParams = [name, course, score, gradeId];
+      const updateGradeResult = await db.query(
+        updateGradeSql,
+        updateGradeParams
+      );
 
-      const checkGradeParams = [gradeId];
-      const checkGradeResult = await db.query(checkGradeId, checkGradeParams);
+      // Retrieving the updated grade
+      const updatedGrade = updateGradeResult.rows[0];
 
-      const existingGrade = checkGradeResult.rows[0];
-
-      if (!existingGrade) {
-        // If the grade doesn't exist, respond with a 404 status code
-        res.status(404).json({ error: 'Grade not found.' });
-      } else {
-        // Updating the grade in the database
-        const updateGradeSql = `
-          UPDATE "grades"
-          SET "name" = $1, "course" = $2, "score" = $3
-          WHERE "gradeId" = $4
-          RETURNING *
-        `;
-        const updateGradeParams = [name, course, score, gradeId];
-        const updateGradeResult = await db.query(
-          updateGradeSql,
-          updateGradeParams
-        );
-
-        // Retrieving the updated grade
-        const updatedGrade = updateGradeResult.rows[0];
-
-        // Responding with a 200 status code and the updated grade
-        res.status(200).json(updatedGrade);
-      }
+      // Responding with a 200 status code and the updated grade
+      res.status(200).json(updatedGrade);
     }
   } catch (err) {
     // Handling server errors with a 500 status code
