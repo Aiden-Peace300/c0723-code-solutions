@@ -1,16 +1,13 @@
 async function getData(url = '', data = []) {
   try {
     const response = await fetch(url);
-    return response.json();
+    if (!response.ok) throw new Error(`fetch Error ${response.status}`);
+    const content = await response.json();
+    console.log(content);
   } catch (error) {
-    console.log(error);
+    console.error('fetch failed', error);
   }
 }
 
-getData('https://jsonplaceholder.typicode.com/users', []).then((data) => {
-  console.log(data);
-});
-
-getData('https://pokeapi.co/api/v2/pokemon/1', []).then((data) => {
-  console.log(data);
-});
+getData('https://jsonplaceholder.typicode.com/users', []);
+getData('https://pokeapi.co/api/v2/pokemon/1', []);
