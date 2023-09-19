@@ -1,4 +1,4 @@
-async function getData(url = '', data = []) {
+async function getData(url = '') {
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`fetch Error ${response.status}`);
