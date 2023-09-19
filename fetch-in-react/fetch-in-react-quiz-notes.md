@@ -17,4 +17,4 @@ After completing this exercise, you should be able to discuss or answer the foll
   put the variable that will constantly change in the dependencies array as a index
 
 - In a large-scale production app, what are some better alternatives for loading and managing backend data?
-  Not sure right now
+  Some good open source packages are React Query and Vercel SWR work.
