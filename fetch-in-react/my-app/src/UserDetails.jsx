@@ -21,11 +21,11 @@ export default function UserDetails({ userId, onCancel }) {
           const content = await response.json();
           console.log(content);
           setUser(content);
-          setIsLoading(false);
         }
       } catch (error) {
         console.error('fetch failed', error);
         setError(error);
+      } finally {
         setIsLoading(false);
       }
     }

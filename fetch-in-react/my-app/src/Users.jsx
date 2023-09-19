@@ -22,10 +22,10 @@ export default function Users() {
         const content = await response.json();
         console.log(content);
         setUsers(content);
-        setIsLoading(false);
       } catch (error) {
         console.error('fetch failed', error);
-        setUsers(error);
+        setError(error);
+      } finally {
         setIsLoading(false);
       }
     }
