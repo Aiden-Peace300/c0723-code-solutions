@@ -9,5 +9,5 @@ async function getData(url = '') {
   }
 }
 
-getData('https://jsonplaceholder.typicode.com/users', []);
-getData('https://pokeapi.co/api/v2/pokemon/1', []);
+getData('https://jsonplaceholder.typicode.com/users');
+getData('https://pokeapi.co/api/v2/pokemon/1');
