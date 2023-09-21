@@ -34,16 +34,8 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
     // Retrieving the created grade
     const createdUser = result.rows[0];
 
-    // Responding with a 201 status code and the created grade
+    // Responding with a 201 status code and the created createdUser
     res.status(201).json(createdUser);
-    /* TODO:
-     * Hash the user's password with `argon2.hash()`
-     * Insert the user's "username" and "hashedPassword" into the "users" table.
-     * Respond to the client with a 201 status code and the new user's "userId", "username", and "createdAt" timestamp.
-     * Catch any errors.
-     *
-     * Hint: Insert statements can include a `returning` clause to retrieve the insterted row(s).
-     */
   } catch (err) {
     next(err);
   }
