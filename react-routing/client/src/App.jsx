@@ -17,8 +17,8 @@ export default function App() {
           <Route index element={<Catalog />} />
           <Route path="details/:productId" element={<ProductDetails />} />
           <Route path="about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

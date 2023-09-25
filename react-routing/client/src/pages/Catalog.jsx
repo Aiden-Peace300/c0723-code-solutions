@@ -49,11 +49,10 @@ export default function Catalog() {
 
 function ProductCard({ product }) {
   const { productId, name, price, imageUrl, shortDescription } = product;
-  const toValue = `/details/${productId}`;
   return (
     // <div className="product text-dark card mb-4 shadow-sm text-decoration-none">
     <Link
-      to={toValue}
+      to={`/details/${productId}`}
       className="product text-dark card mb-4 shadow-sm text-decoration-none">
       {/* TODO: Instead of a div, the above should link to `/details/:productId` */}
       <img src={imageUrl} className="image card-img-top" alt={name} />
