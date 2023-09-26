@@ -8,23 +8,26 @@ type Image = {
 };
 
 export default function UploadForm() {
+  const [path, setPath] = useState<Image | null>(null); // Specify the type and initial value
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    /* Prevent the browser's default behavior for form submissions.
-     * Create a `new` FormData object from the `event`.
-     *
-     * Use fetch() to send a POST request to http://localhost:8080/api/uploads.
-     * The body should be the form data object you created (not a JSON string).
-     * Headers are not necessary as fetch will use the correct Content-Type
-     * automatically (multipart/form-data).
-     *
-     * Parse the JSON response body and log the parsed response body.
-     * Set the `imageFile` state to the parsed response body.
-     * Log any errors to the console (using `console.error`).
-     *
-     * References:
-     * https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData
-     * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#uploading_a_file
-     */
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    const req = {
+      method: 'POST',
+      body: formData,
+    };
+
+    try {
+      const res = await fetch('/api/uploads', req);
+      if (!res.ok) throw new Error(`Fetch Error ${res.status}`);
+      const image: Image = await res.json(); // Specify the type of 'image'
+      setPath(image);
+      console.log(image);
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return (
