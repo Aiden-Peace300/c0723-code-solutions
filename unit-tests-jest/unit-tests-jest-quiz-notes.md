@@ -24,6 +24,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   - Test the edge cases of a few unusually complex code that you think will probably have errors.
   - Whenever you find a bug, write a test case to cover it before fixing it
 
+  TEST EXPORTED FUNCTIONS ALMOST ALWAYS!
+
 - What is Jest? What are some other popular JavaScript unit testing frameworks?
   Jest is an open-source testing framework built on JavaScript
 
@@ -38,3 +40,4 @@ After completing this exercise, you should be able to discuss or answer the foll
   - WebdriverIO
   - AVA
   - Playwright
+  - vite test

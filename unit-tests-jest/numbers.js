@@ -12,16 +12,7 @@ export function evenNumbers(numbers) {
  * `toDollars(11.341)` returns `$11.34`.
  */
 export function toDollars(amount) {
-  if (
-    amount === undefined ||
-    amount === null ||
-    isNaN(amount) ||
-    amount === 0 ||
-    !amount
-  )
-    return 'Invalid value try again';
-  if (Number.isInteger(amount)) return `$${amount}.00`;
-  return `$${Math.round(amount * 100) / 100}`;
+  return `$${amount.toFixed(2)}`;
 }
 
 /**
@@ -32,10 +23,7 @@ export function toDollars(amount) {
  * @returns a new array.
  */
 export function divideBy(numbers, divisor) {
-  for (let i = 1; i < numbers.length; i++) {
-    numbers[i] = numbers[i] / divisor;
-  }
-  return numbers;
+  return numbers.map((n) => n / divisor);
 }
 
 /**
@@ -46,9 +34,8 @@ export function divideBy(numbers, divisor) {
  * @returns the input object.
  */
 export function multiplyBy(obj, multiplier) {
-  const result = {};
   Object.entries(obj).forEach(([key, value]) => {
-    result[key] = value * multiplier + 1;
+    obj[key] = typeof value === 'number' ? value * multiplier : value;
   });
-  return result;
+  return obj;
 }
